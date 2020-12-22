@@ -1,5 +1,9 @@
 package com.emmahogan.gedcourse;
 
+
+import android.content.Context;
+import android.content.res.Resources;
+
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -23,6 +27,8 @@ public class Lesson {
 
     Random rand = new Random();
 
+    // Context
+    Context context;
 
     /* Constructor for a Lesson object */
 
@@ -69,5 +75,11 @@ public class Lesson {
         }
 
         return return_questions;
+    }
+
+    /* Populates the lessons with strings from resources */
+    public void populate() {
+        Resources r = context.getResources();
+
     }
 }
