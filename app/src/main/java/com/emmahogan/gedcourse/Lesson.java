@@ -16,9 +16,6 @@ public class Lesson {
     int unit_num;
     int lesson_num;
 
-    // Definitions in lesson
-    ArrayList<String[]> definitions = new ArrayList<String[]>();
-
     // Practice questions for lesson
     ArrayList<Question> practice_questions = new ArrayList<Question>();
 
@@ -32,12 +29,11 @@ public class Lesson {
 
     /* Constructor for a Lesson object */
 
-    public Lesson(String title, int unit, int lesson_num, ArrayList<String[]> definitions, ArrayList<Question> questions) {
+    public Lesson(String title, int unit, int lesson_num, ArrayList<Question> questions) {
 
         this.title = title;
         this.unit_num = unit;
         this.lesson_num = lesson_num;
-        this.definitions = definitions;
         this.practice_questions = questions;
 
         this.passed = false;

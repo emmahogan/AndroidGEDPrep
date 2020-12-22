@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <String name="unit1_title">Whole Numbers</String>
-    <String name="title_1_1">Number Values and Facts</String>
+    <string name="unit1_title">Whole Numbers</string>
+    <string name="title_1_1">Number Values and Facts</string>
     <string-array name="questions_1_1">
         <item>What is 7488 divided by 18?</item>
         <item>Find the difference between 905,246 and 387,529</item>
