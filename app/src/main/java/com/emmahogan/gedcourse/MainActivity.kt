@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        resources_button = findViewById(R.id.resources)
+        resources_button = findViewById(R.id.resources_btn)
 
         resources_button.setOnClickListener {
             startActivity(Intent(this@MainActivity, list_articles::class.java))
