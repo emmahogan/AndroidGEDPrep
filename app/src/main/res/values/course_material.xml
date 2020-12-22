@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <String name="unit1_title">Whole Numbers</String>
+    <String name="1_1_title">Number Values and Facts</String>
+    <String name="1_1_1_question">What is 7488 divided by 18?</String>
+    <String name="1_1_1_answer">416</String>
+    <String name="1_1_2_question">Find the difference between 905,246 and 387,529</String>
+    <String name="1_1_2_answer">517,717</String>
+    <String name="1_1_3_question">34,510 + 97,286 = ?</String>
+    <String name="1_1_3_answer">131,796</String>
+    <String name="1_1_4_question">Find the difference between 32,070 and 9,958</String>
+    <String name="1_1_4_answer">22,112</String>
+    <String name="1_1_5_question">What is the quotient of 666 divided by 18?</String>
+    <String name="1_1_5_answer">37</String>
+    <String name="1_1_6_question">Find the product of 6000 and 58</String>
+    <String name="1_1_6_answer">348,000</String>
+    <String name="1_1_7_question">81,206 - 7,395 = ?</String>
+    <String name="1_1_7_answer">73,811</String>
+    <String name="1_1_8_question">356 x 48 = ?</String>
+    <String name="1_1_8_answer">17,088</String>
+    <String name="1_1_9_question">What is the difference between 2,309,000 and 586,900?</String>
+    <String name="1_1_9_answer">1,722,100</String>
+    <String name="1_1_10_question">79 + 3148 + 307 = ?</String>
+    <String name="1_1_10_answer">3534</String>
+    <String name="1_1_11_question">What is the product of 58 and 37 rounded to the nearest hundred?</String>
+    <String name="1_1_11_answer">2100</String>
+    <String name="1_1_12_question">30,550/650 = ?</String>
+    <String name="1_1_12_answer">47</String>
+</resources>
