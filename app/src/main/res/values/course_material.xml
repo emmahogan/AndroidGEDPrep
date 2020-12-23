@@ -2,6 +2,45 @@
 <resources>
     <string name="unit1_title">Whole Numbers</string>
     <string name="title_1_1">Number Values and Facts</string>
+    <string-array name="subtopic_names_1_1">
+        <item>Whole Number Definition</item>
+        <item>Number Values and Facts</item>
+        <item>The Basic Operations</item>
+        <item>GED Test-Taking Shortcuts (Rounding, Estimating, Using a Calculator)</item>
+        <item>Special Topics with Whole Numbers (Mean and Median, Powers, Squaare Roots, Number Sequences and Patterns)</item>
+        <item>Properties of Numbers</item>
+        <item>Order of Operations</item>
+        <item>Using a Number Grid</item>
+    </string-array>
+    <string-array name="subtopic_content_1_1">
+        <item><em>Whole Numbers </em>can be written with the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9, and are divisible by 1 with no remainder. </item>
+        <item><em>Place Value: </em>In our decimal number system, the value of a digit depends on its place, or position, in the number. Each place has a value of 10 times the place to its right.
+            /n/n A number in standard form is separated into groups of three digits using commas. Each of these groups is called a period.
+            /n/n The idea of place value is at the heart of our number system. First, however, a symbol for nothing--our zero--had to be invented. Zero "holds the place" for a particular value, when no other digit goes in that position. For example, the number "100" in words means one hundred, no tens, and no ones. Without a symbol for nothing, our decimal number system wouldn't work.
+            /n/n Beginning with the ones place at the right, each place value is multiplied by increasing powers of 10. For example, the value of the first place on the right is "one", the value of the place to the left of it is "ten," which is 10 times 1. The place to the left of the tens place is hundreds, which is 10 times 10, and so forth.
+            /n/n For easier readability, commas are used to separate each group of three digits, which is called a period. When a number is written in this form, it is said to be in "standard form."
+        </item>
+    </string-array>
+    <string-array name="examples_1_1">
+        <item>
+            <ul>
+                <li>27 <em>IS</em> a Whole Number</li>
+                <li>3 1/2 <em>IS NOT</em> a Whole Number.</li>
+            </ul>
+        </item>
+        <item>Numbers can be represented in many ways, but standard form is usually the easiest and shortest way. Here are some numbers expressed in different forms, with their standard form shown alongside/n/n
+            <ul>
+                <li>one billion, sixty million, five hundred twenty thousand             1,060,520,000</li>
+                <li>four hundred sixteen thousand, seven hundred thirty-one             416,731</li>
+                <li>6,000,000 + 70,000 + 20 + 1             6,070,021</li>
+            </ul></item>
+            /n/n In each of these numbers, what value does the digit 5 have? /n/n
+            <ul>
+                <li>In 17,526,010 the 5 represents <em>five hundred thousands</em></li>
+                <li>In 2,110,735,000 the 5 represents <em>five thousands</em></li>
+            </ul>
+        <item></item>
+    </string-array>
     <string-array name="questions_1_1">
         <item>What is 7488 divided by 18?</item>
         <item>Find the difference between 905,246 and 387,529</item>
