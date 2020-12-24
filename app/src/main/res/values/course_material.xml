@@ -42,7 +42,14 @@
                     5 is <em>a factor of</em> 15, and <em>the factors of</em> 12 are 1, 2, 3, 4, and 6.</li>
             </ul>
         </item>
-        <item>The four basic operations in arithmetic are <em>addition, subtraction, multiplication,</em> and <em>division</em>. </item>
+        <item>The four basic operations in arithmetic are <em>addition, subtraction, multiplication,</em> and <em>division</em>. Read more about each below, then watch the animation for a step-by-step example of each.
+            <ul>
+                <li><em>Addition: </em>The answer to an addition problem is called the <em>sum</em>, or <em>total</em>. The symbol for an addition operation is the <em>+</em> sign.</li>
+                <li><em>Subtraction: </em>The answer to a subtraction problem is called the <em>difference</em>. The symbol for the subtraction operation is the <em>-</em> sign. To find the difference between two numbers, you should put the larger number on top.</li>
+                <li><em>Multiplication: </em>The answer to a multiplication problem is called the <em>product</em>. The <em>x</em> sign and the <em>*</em>, as well as a raised dot between two numbers, and numbers in parentheses with no signs in between all symbolize a multiplication operation.</li>
+                <li><em>Division: </em>The answer to a division problem is called the <em>quotient</em>. The <em>&#x00F7;</em> sign, the <em>&#x27CC;</em> sign, and a slash all symbolize a division operation.</li>
+            </ul>
+        </item>
     </string-array>
     <string-array name="examples_1_1">
         <item>
@@ -74,6 +81,7 @@
     <string-array name="citations_1_1">
         <item>McGraw-Hill's GED Mathematics Study Program</item>
         <item>Math.com</item>
+        <item>McGraw-Hill's GED Mathematics Study Program</item>
         <item>McGraw-Hill's GED Mathematics Study Program</item>
     </string-array>
     <string-array name="questions_1_1">
