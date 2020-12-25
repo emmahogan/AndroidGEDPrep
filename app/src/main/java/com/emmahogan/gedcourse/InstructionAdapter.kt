@@ -18,11 +18,15 @@ class InstructionAdapter (context: Context, subtopics:ArrayList<Subtopic>) : Arr
 
         val subtopic_title = itemView.findViewById<TextView>(R.id.subtopic_title)
         val subtopic_content = itemView.findViewById<TextView>(R.id.subtopic_content)
+        val subtopic_example = itemView.findViewById<TextView>(R.id.subtopic_example)
+        val subtopic_citation = itemView.findViewById<TextView>(R.id.subtopic_citation)
 
         val itemData = getItem(position)
 
         subtopic_title.text = itemData?.subtopic_title
         subtopic_content.text = itemData?.subtopic_content
+        subtopic_example.text = itemData?.subtopic_example
+        subtopic_citation.text = itemData?.subtopic_citation
 
         return itemView
     }

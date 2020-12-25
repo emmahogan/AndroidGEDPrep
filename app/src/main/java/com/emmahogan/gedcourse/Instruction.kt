@@ -44,8 +44,12 @@ class Instruction : AppCompatActivity() {
 
     fun showSubtopics() {
         val topics = ArrayList<Subtopic>()
-        for (i in 0..11) {
-            topics.add(Subtopic(lesson.title, lesson.practice_questions[i].question))
+        var subtopic_titles = r.getStringArray(R.array.subtopic_names_1_1)
+        var subtopic_contents = r.getStringArray(R.array.subtopic_content_1_1)
+        var subtopic_examples = r.getStringArray(R.array.examples_1_1)
+        var subtopic_citations = r.getStringArray(R.array.citations_1_1)
+        for (i in 0..(subtopic_titles.size - 1)) {
+            topics.add(Subtopic(subtopic_titles[i], subtopic_contents[i], subtopic_examples[i], subtopic_citations[i]))
         }
 
         val adapter = InstructionAdapter(this@Instruction, topics)
