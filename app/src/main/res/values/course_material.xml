@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="unit1_title">Whole Numbers</string>
-    <string name="title_1_1">Number Values and Facts</string>
-    <string-array name="subtopic_names_1_1">
+
+<!--  CHAPTER NAMES  -->
+
+    <string-array name="chapter_names">
+        <item>Whole Numbers</item>
+        <item>Word Problems</item>
+        <item>Decimals</item>
+        <item>Fractions</item>
+        <item>Ratio and Proportion</item>
+        <item>Percent</item>
+        <item>Measurement</item>
+        <item>Data Analysis, Statistics, and Probability</item>
+        <item>Basic Geometry</item>
+        <item>The Basics of Algebra</item>
+        <item>Advanced Topics in Algebra and Geometry</item>
+    </string-array>
+
+<!--  SUBTOPIC NAMES  -->
+
+    <string-array name="subtopic_names_1">
         <item>Whole Number Definition</item>
         <item>Place Value</item>
         <item>Arithmetic Facts</item>
@@ -13,9 +30,85 @@
         <item>Order of Operations</item>
         <item>Using a Number Grid</item>
     </string-array>
-    <string-array name="subtopic_content_1_1">
-        <item><em>Whole Numbers </em>can be written with the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9, and are divisible by 1 with no remainder. </item>
-        <item><em>Place Value: </em>In our decimal number system, the value of a digit depends on its place, or position, in the number. Each place has a value of 10 times the place to its right.
+    <string-array name="subtopic_names_2">
+        <item>Steps to Solving Word Problems</item>
+        <item>GED Problem Solving</item>
+    </string-array>
+    <string-array name="subtopic_names_3">
+        <item>Understanding Decimals</item>
+        <item>Adding and Subtracting Decimals</item>
+        <item>Multiplying and Dividing Decimals</item>
+        <item>Scientific Notation with Large Numbers</item>
+        <item>Decimal Word Problems</item>
+    </string-array>
+    <string-array name="subtopic_names_4">
+        <item>Understanding Fractions</item>
+        <item>Working with Fractions</item>
+        <item>Adding Fractions</item>
+        <item>Subtracting Fractions</item>
+        <item>Multiplying Fractions</item>
+        <item>Dividing Fractions</item>
+        <item>Fractions and Decimals</item>
+        <item>Scientific Notation with Small Numbers</item>
+        <item>Fraction Word Problems</item>
+    </string-array>
+    <string-array name="subtopic_names_5">
+        <item>Ratio</item>
+        <item>Proportion</item>
+        <item>Proportion Word Problems</item>
+    </string-array>
+    <string-array name="subtopic_names_6">
+        <item>Understanding Percent</item>
+        <item>Percents, Decimals, and Fractions</item>
+        <item>Solving Percent Problems</item>
+        <item>Percent Word Problems</item>
+    </string-array>
+    <string-array name="subtopic_names_7">
+        <item>Customary Measures</item>
+        <item>Metric Measures</item>
+        <item>Converting Measurements</item>
+        <item>Scales, Meters, and Gauges</item>
+    </string-array>
+    <string-array name="subtopic_names_8">
+        <item>Graphs and Tables</item>
+        <item>Probability</item>
+        <item>Statistical Analysis</item>
+    </string-array>
+    <string-array name="subtopic_names_9">
+        <item>Common Geometric Shapes</item>
+        <item>Perimeter and Circumference</item>
+        <item>Area</item>
+        <item>Solid Figures</item>
+        <item>Volume</item>
+        <item>Triangles</item>
+        <item>Similarity and Congruence</item>
+        <item>Pythagorean Relationship</item>
+    </string-array>
+    <string-array name="subtopic_names_10">
+        <item>Working with Signed Numbers</item>
+        <item>Simplifying Algebraic Expressions</item>
+        <item>Solving One-Step Equations</item>
+        <item>Solving Longer Equations</item>
+        <item>Solving Inequalities</item>
+        <item>Writing Algebraic Expressions</item>
+        <item>Using Algebra to Solve Word Problems</item>
+        <item>Using Algebra to Solve Geometry Problems</item>
+    </string-array>
+    <string-array name="subtopic_names_11">
+        <item>The Coordinate Plane</item>
+        <item>Linear Equations</item>
+        <item>Slope and Intercepts</item>
+        <item>Multiplying and Dividing Monomials</item>
+        <item>Factoring</item>
+        <item>Trigonometric Ratios</item>
+        <item>Quadratic Equations</item>
+    </string-array>
+
+<!--  SUBTOPIC CONTENT  -->
+
+    <string-array name="subtopic_content_1">
+        <item><b>Whole Numbers </b>can be written with the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9, and are divisible by 1 with no remainder. </item>
+        <item><b>Place Value: </b>In our decimal number system, the value of a digit depends on its place, or position, in the number. Each place has a value of 10 times the place to its right.
             \n\n A number in standard form is separated into groups of three digits using commas. Each of these groups is called a period.
             \n\n The idea of place value is at the heart of our number system. First, however, a symbol for nothing—our zero—had to be invented. Zero \"holds the place\" for a particular value, when no other digit goes in that position. For example, the number \"100\" in words means one hundred, no tens, and no ones. Without a symbol for nothing, our decimal number system wouldn\'t work.
             \n\n Beginning with the ones place at the right, each place value is multiplied by increasing powers of 10. For example, the value of the first place on the right is \"one\", the value of the place to the left of it is \"ten,\" which is 10 times 1. The place to the left of the tens place is hundreds, which is 10 times 10, and so forth.
@@ -23,32 +116,32 @@
         </item>
         <item>These are some definitions that you need to know for the GED: \n
             <ul>
-                <li>The answer to an addition problem is called the <em><u>sum</u></em>. For example, in the problem
-                    <em>9 + 5 = 14</em>, <em>14</em> is the <em>sum</em> of 9 and 5.</li>
-                <li>The answer to a multiplication problem is called the <em><u>product</u></em>. For example, in the problem
-                    <em>9 * 5 = 45</em>, <em>45</em> is the <em>product</em> of 9 and 5.</li>
-                <li><em>Whole numbers</em> include 0 and all <em>positive</em> numbers. A <em>positive</em> number is any number
-                    greater than 0.</li>
-                <li>An <em>odd</em> number is defined as not evenly divisible by 2. The units digit of an odd number will always be 1, 3, 5, 7, or 9.
-                    For example: 9, 47, and 2,400,513 are all odd numbers. The numbers 6 and 538 are not.</li>
-                <li>An <em>even</em> number is defined as being evenly divisible by 2. The units digit of an even number has to be 0, 2, 4, 6, or 8.
-                    For example: 4, 52, and 386 are all even numbers. The numbers 3 and 423 are not.</li>
-                <li><em>Consecutive numbers</em> are one after the other. For example, 12, 13, and 14 are consecutive numbers. Also, the next three consecutive odd numbers
-                    following 13 are 15, 17, 19.</li>
-                <li>A <em>prime</em> number is only evenly divisible by itself and 1. For example, 17 is a prime number because
+                \n\n\t&#8226;    The answer to an addition problem is called the <b><u>sum</u></b>. For example, in the problem
+                    <b>9 + 5 = 14</b>, <b>14</b> is the <b>sum</b> of 9 and 5.
+                \n\n\t&#8226;    The answer to a multiplication problem is called the <b><u>product</u></b>. For example, in the problem
+                    <b>9 * 5 = 45</b>, <b>45</b> is the <b>product</b> of 9 and 5.
+                \n\n\t&#8226;    <b>Whole numbers</b> include 0 and all <b>positive</b> numbers. A <b>positive</b> number is any number
+                    greater than 0.
+                \n\n\t&#8226;    An <b>odd</b> number is defined as not evenly divisible by 2. The units digit of an odd number will always be 1, 3, 5, 7, or 9.
+                    For example: 9, 47, and 2,400,513 are all odd numbers. The numbers 6 and 538 are not.
+                \n\n\t&#8226;    An <b>even</b> number is defined as being evenly divisible by 2. The units digit of an even number has to be 0, 2, 4, 6, or 8.
+                    For example: 4, 52, and 386 are all even numbers. The numbers 3 and 423 are not.
+                \n\n\t&#8226;    <b>Consecutive numbers</b> are one after the other. For example, 12, 13, and 14 are consecutive numbers. Also, the next three consecutive odd numbers
+                    following 13 are 15, 17, 19.
+                \n\n\t&#8226;    A <b>prime</b> number is only evenly divisible by itself and 1. For example, 17 is a prime number because
                     the only numbers that divide evenly into 17 are 17 and 1. However, 15 is not a prime number because aside from
-                    15 and 1, 15 is also evenly divisible by 3 and 5.</li>
-                <li>A <em>factor</em> is another word for divisor. A factor is a number that divides evenly into another number. For example,
-                    5 is <em>a factor of</em> 15, and <em>the factors of</em> 12 are 1, 2, 3, 4, and 6.</li>
-            </ul>
+                    15 and 1, 15 is also evenly divisible by 3 and 5.
+                \n\n\t&#8226;    A <b>factor</b> is another word for divisor. A factor is a number that divides evenly into another number. For example,
+                    5 is <b>a factor of</b> 15, and <b>the factors of</b> 12 are 1, 2, 3, 4, and 6.
+            </ul>\n
         </item>
-        <item>The four basic operations in arithmetic are <em>addition, subtraction, multiplication,</em> and <em>division</em>. Read more about each below, then watch the animation for a step-by-step example of each.
+        <item>The four basic operations in arithmetic are <b>addition, subtraction, multiplication,</b> and <b>division</b>. Read more about each below, then watch the animation for a step-by-step example of each.
             <ul>
-                <li><em>Addition: </em>The answer to an addition problem is called the <em>sum</em>, or <em>total</em>. The symbol for an addition operation is the <em>+</em> sign.</li>
-                <li><em>Subtraction: </em>The answer to a subtraction problem is called the <em>difference</em>. The symbol for the subtraction operation is the <em>-</em> sign. To find the difference between two numbers, you should put the larger number on top.</li>
-                <li><em>Multiplication: </em>The answer to a multiplication problem is called the <em>product</em>. The <em>x</em> sign and the <em>*</em>, as well as a raised dot between two numbers, and numbers in parentheses with no signs in between all symbolize a multiplication operation.</li>
-                <li><em>Division: </em>The answer to a division problem is called the <em>quotient</em>. The <em>&#x00F7;</em> sign, the <em>&#x27CC;</em> sign, and a slash all symbolize a division operation.</li>
-            </ul>
+                \n\n\t&#8226;    <b>Addition: </b>The answer to an addition problem is called the <b>sum</b>, or <b>total</b>. The symbol for an addition operation is the <b>+</b> sign.
+                \n\n\t&#8226;    <b>Subtraction: </b>The answer to a subtraction problem is called the <b>difference</b>. The symbol for the subtraction operation is the <b>-</b> sign. To find the difference between two numbers, you should put the larger number on top.
+                \n\n\t&#8226;    <b>Multiplication: </b>The answer to a multiplication problem is called the <b>product</b>. The <b>x</b> sign and the <b>*</b>, as well as a raised dot between two numbers, and numbers in parentheses with no signs in between all symbolize a multiplication operation.
+                \n\n\t&#8226;    <b>Division: </b>The answer to a division problem is called the <b>quotient</b>. The <b>&#x00F7;</b> sign, the <b>&#x27CC;</b> sign, and a slash all symbolize a division operation.
+            </ul>\n
         </item>
         <item>CONTENT GED Test-Taking Shortcuts (Rounding, Estimating, Using a Calculator)</item>
         <item>CONTENT Special Topics with Whole Numbers (Mean and Median, Powers, Square Roots, Number Sequences and Patterns)</item>
@@ -56,30 +149,30 @@
         <item>CONTENT Order of Operations</item>
         <item>CONTENT Using a Number Grid</item>
     </string-array>
-    <string-array name="examples_1_1">
+    <string-array name="examples_1">
         <item>
             <ul>
-                <li>27 <em>IS</em> a Whole Number</li>
-                <li>3 1/2 <em>IS NOT</em> a Whole Number.</li>
-            </ul>
+                \n\n\t&#8226;    27 <b>IS</b> a Whole Number
+                \n\n\t&#8226;    3 1/2 <b>IS NOT</b> a Whole Number.
+            </ul>\n
         </item>
         <item>Numbers can be represented in many ways, but standard form is usually the easiest and shortest way. Here are some numbers expressed in different forms, with their standard form shown alongside\n\n
             <ul>
-                <li>one billion, sixty million, five hundred twenty thousand             1,060,520,000</li>
-                <li>four hundred sixteen thousand, seven hundred thirty-one             416,731</li>
-                <li>6,000,000 + 70,000 + 20 + 1             6,070,021</li>
-            </ul>
+                \n\n\t&#8226;    one billion, sixty million, five hundred twenty thousand             1,060,520,000
+                \n\n\t&#8226;    four hundred sixteen thousand, seven hundred thirty-one             416,731
+                \n\n\t&#8226;    6,000,000 + 70,000 + 20 + 1             6,070,021
+            </ul>\n
             \n\n In each of these numbers, what value does the digit 5 have? \n\n
             <ul>
-                <li>In 17,526,010 the 5 represents <em>five hundred thousands</em></li>
-                <li>In 2,110,735,000 the 5 represents <em>five thousands</em></li>
-            </ul>
+                \n\n\t&#8226;    In 17,526,010 the 5 represents <b>five hundred thousands</b>
+                \n\n\t&#8226;    In 2,110,735,000 the 5 represents <b>five thousands</b>
+            </ul>\n
         </item>
         <item>
             <ul>
-                <li>List the first three consecutive odd numbers following 19:          <em>21, 23, 25</em></li>
-                <li>List the three prime factors of 35:           <em>1, 5, 7</em></li>
-            </ul>
+                \n\n\t&#8226;    List the first three consecutive odd numbers following 19:          <b>21, 23, 25</b>
+                \n\n\t&#8226;    List the three prime factors of 35:           <b>1, 5, 7</b>
+            </ul>\n
         </item>
         <item>ANIMATION</item>
         <item>EX 1</item>
@@ -88,7 +181,7 @@
         <item>ex</item>
         <item>ex</item>
     </string-array>
-    <string-array name="citations_1_1">
+    <string-array name="citations_1">
         <item>McGraw-Hill\'s GED Mathematics Study Program</item>
         <item>Math.com</item>
         <item>McGraw-Hill\'s GED Mathematics Study Program</item>
@@ -99,7 +192,7 @@
         <item>citation</item>
         <item>citation</item>
     </string-array>
-    <string-array name="questions_1_1">
+    <string-array name="questions_1">
         <item>What is 7488 divided by 18?</item>
         <item>Find the difference between 905,246 and 387,529</item>
         <item>34,510 + 97,286 = ?</item>
@@ -113,7 +206,7 @@
         <item>What is the product of 58 and 37 rounded to the nearest hundred?</item>
         <item>30,550/650 = ?</item>
     </string-array>
-    <string-array name="answers_1_1">
+    <string-array name="answers_1">
         <item>416</item>
         <item>517,717</item>
         <item>131,796</item>
