@@ -31,14 +31,15 @@ class Instruction : AppCompatActivity() {
     fun initLessonData() {
 
         var questions = ArrayList<Question>()
-        var q_arr = r.getStringArray(R.array.questions_1_1)
-        var a_arr = r.getStringArray(R.array.answers_1_1)
+        var subtitle_arr = r.getStringArray(R.array.subtopic_names_1)
+        var q_arr = r.getStringArray(R.array.questions_1)
+        var a_arr = r.getStringArray(R.array.answers_1)
 
         for(i in 0..11) {
             questions.add(Question(q_arr[i], a_arr[i], false))
         }
 
-        var title:String = r.getString(R.string.title_1_1)
+        var title:String = subtitle_arr[0]
 
         lesson = Lesson(title, 1, 1, questions)
 
@@ -46,10 +47,10 @@ class Instruction : AppCompatActivity() {
 
     fun showSubtopics() {
         val topics = ArrayList<Subtopic>()
-        var subtopic_titles = r.getStringArray(R.array.subtopic_names_1_1)
-        var subtopic_contents = r.getStringArray(R.array.subtopic_content_1_1)
-        var subtopic_examples = r.getStringArray(R.array.examples_1_1)
-        var subtopic_citations = r.getStringArray(R.array.citations_1_1)
+        var subtopic_titles = r.getStringArray(R.array.subtopic_names_1)
+        var subtopic_contents = r.getStringArray(R.array.subtopic_content_1)
+        var subtopic_examples = r.getStringArray(R.array.examples_1)
+        var subtopic_citations = r.getStringArray(R.array.citations_1)
         for (i in 0..(subtopic_titles.size - 1)) {
             topics.add(Subtopic(subtopic_titles[i], subtopic_contents[i], subtopic_examples[i], subtopic_citations[i]))
         }
