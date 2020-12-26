@@ -41,7 +41,6 @@ class Instruction : AppCompatActivity() {
 
         var title:String = subtitle_arr[0]
 
-        lesson = Lesson(title, 1, 1, questions)
 
     }
 

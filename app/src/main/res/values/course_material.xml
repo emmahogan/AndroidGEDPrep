@@ -30,82 +30,6 @@
         <item>Order of Operations</item>
         <item>Using a Number Grid</item>
     </string-array>
-    <string-array name="subtopic_names_2">
-        <item>Steps to Solving Word Problems</item>
-        <item>GED Problem Solving</item>
-    </string-array>
-    <string-array name="subtopic_names_3">
-        <item>Understanding Decimals</item>
-        <item>Adding and Subtracting Decimals</item>
-        <item>Multiplying and Dividing Decimals</item>
-        <item>Scientific Notation with Large Numbers</item>
-        <item>Decimal Word Problems</item>
-    </string-array>
-    <string-array name="subtopic_names_4">
-        <item>Understanding Fractions</item>
-        <item>Working with Fractions</item>
-        <item>Adding Fractions</item>
-        <item>Subtracting Fractions</item>
-        <item>Multiplying Fractions</item>
-        <item>Dividing Fractions</item>
-        <item>Fractions and Decimals</item>
-        <item>Scientific Notation with Small Numbers</item>
-        <item>Fraction Word Problems</item>
-    </string-array>
-    <string-array name="subtopic_names_5">
-        <item>Ratio</item>
-        <item>Proportion</item>
-        <item>Proportion Word Problems</item>
-    </string-array>
-    <string-array name="subtopic_names_6">
-        <item>Understanding Percent</item>
-        <item>Percents, Decimals, and Fractions</item>
-        <item>Solving Percent Problems</item>
-        <item>Percent Word Problems</item>
-    </string-array>
-    <string-array name="subtopic_names_7">
-        <item>Customary Measures</item>
-        <item>Metric Measures</item>
-        <item>Converting Measurements</item>
-        <item>Scales, Meters, and Gauges</item>
-    </string-array>
-    <string-array name="subtopic_names_8">
-        <item>Graphs and Tables</item>
-        <item>Probability</item>
-        <item>Statistical Analysis</item>
-    </string-array>
-    <string-array name="subtopic_names_9">
-        <item>Common Geometric Shapes</item>
-        <item>Perimeter and Circumference</item>
-        <item>Area</item>
-        <item>Solid Figures</item>
-        <item>Volume</item>
-        <item>Triangles</item>
-        <item>Similarity and Congruence</item>
-        <item>Pythagorean Relationship</item>
-    </string-array>
-    <string-array name="subtopic_names_10">
-        <item>Working with Signed Numbers</item>
-        <item>Simplifying Algebraic Expressions</item>
-        <item>Solving One-Step Equations</item>
-        <item>Solving Longer Equations</item>
-        <item>Solving Inequalities</item>
-        <item>Writing Algebraic Expressions</item>
-        <item>Using Algebra to Solve Word Problems</item>
-        <item>Using Algebra to Solve Geometry Problems</item>
-    </string-array>
-    <string-array name="subtopic_names_11">
-        <item>The Coordinate Plane</item>
-        <item>Linear Equations</item>
-        <item>Slope and Intercepts</item>
-        <item>Multiplying and Dividing Monomials</item>
-        <item>Factoring</item>
-        <item>Trigonometric Ratios</item>
-        <item>Quadratic Equations</item>
-    </string-array>
-
-<!--  SUBTOPIC CONTENT  -->
-
     <string-array name="subtopic_content_1">
         <item><b>Whole Numbers </b>can be written with the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9, and are divisible by 1 with no remainder. </item>
         <item><b>Place Value: </b>In our decimal number system, the value of a digit depends on its place, or position, in the number. Each place has a value of 10 times the place to its right.
@@ -220,4 +144,340 @@
         <item>2100</item>
         <item>47</item>
     </string-array>
+
+
+
+    <string-array name="subtopic_names_2">
+        <item>Steps to Solving Word Problems</item>
+        <item>GED Problem Solving</item>
+    </string-array>
+    <string-array name="subtopic_content_2">
+        <item>EXAMPLE</item>
+        <item>EXAMPLE</item>
+    </string-array>
+    <string-array name="examples_2">
+        <item>Steps to Solving Word Problems</item>
+        <item>GED Problem Solving</item>
+    </string-array>
+    <string-array name="citations_2">
+        <item>Steps to Solving Word Problems</item>
+        <item>GED Problem Solving</item>
+    </string-array>
+
+
+
+
+
+    <string-array name="subtopic_names_3">
+        <item>Understanding Decimals</item>
+        <item>Adding and Subtracting Decimals</item>
+        <item>Multiplying and Dividing Decimals</item>
+        <item>Scientific Notation with Large Numbers</item>
+        <item>Decimal Word Problems</item>
+    </string-array>
+    <string-array name="subtopic_content_3">
+        <item>Understanding Decimals</item>
+        <item>Adding and Subtracting Decimals</item>
+        <item>Multiplying and Dividing Decimals</item>
+        <item>Scientific Notation with Large Numbers</item>
+        <item>Decimal Word Problems</item>
+    </string-array>
+    <string-array name="examples_3">
+        <item>Understanding Decimals</item>
+        <item>Adding and Subtracting Decimals</item>
+        <item>Multiplying and Dividing Decimals</item>
+        <item>Scientific Notation with Large Numbers</item>
+        <item>Decimal Word Problems</item>
+    </string-array>
+    <string-array name="citations_3">
+        <item>Understanding Decimals</item>
+        <item>Adding and Subtracting Decimals</item>
+        <item>Multiplying and Dividing Decimals</item>
+        <item>Scientific Notation with Large Numbers</item>
+        <item>Decimal Word Problems</item>
+    </string-array>
+
+
+
+    <string-array name="subtopic_names_4">
+        <item>Understanding Fractions</item>
+        <item>Working with Fractions</item>
+        <item>Adding Fractions</item>
+        <item>Subtracting Fractions</item>
+        <item>Multiplying Fractions</item>
+        <item>Dividing Fractions</item>
+        <item>Fractions and Decimals</item>
+        <item>Scientific Notation with Small Numbers</item>
+        <item>Fraction Word Problems</item>
+    </string-array>
+    <string-array name="subtopic_content_4">
+        <item>Understanding Fractions</item>
+        <item>Working with Fractions</item>
+        <item>Adding Fractions</item>
+        <item>Subtracting Fractions</item>
+        <item>Multiplying Fractions</item>
+        <item>Dividing Fractions</item>
+        <item>Fractions and Decimals</item>
+        <item>Scientific Notation with Small Numbers</item>
+        <item>Fraction Word Problems</item>
+    </string-array>
+    <string-array name="examples_4">
+        <item>Understanding Fractions</item>
+        <item>Working with Fractions</item>
+        <item>Adding Fractions</item>
+        <item>Subtracting Fractions</item>
+        <item>Multiplying Fractions</item>
+        <item>Dividing Fractions</item>
+        <item>Fractions and Decimals</item>
+        <item>Scientific Notation with Small Numbers</item>
+        <item>Fraction Word Problems</item>
+    </string-array>
+    <string-array name="citations_4">
+        <item>Understanding Fractions</item>
+        <item>Working with Fractions</item>
+        <item>Adding Fractions</item>
+        <item>Subtracting Fractions</item>
+        <item>Multiplying Fractions</item>
+        <item>Dividing Fractions</item>
+        <item>Fractions and Decimals</item>
+        <item>Scientific Notation with Small Numbers</item>
+        <item>Fraction Word Problems</item>
+    </string-array>
+
+
+
+
+
+    <string-array name="subtopic_names_5">
+        <item>Ratio</item>
+        <item>Proportion</item>
+        <item>Proportion Word Problems</item>
+    </string-array>
+    <string-array name="subtopic_content_5">
+        <item>Ratio</item>
+        <item>Proportion</item>
+        <item>Proportion Word Problems</item>
+    </string-array>
+    <string-array name="examples_5">
+        <item>Ratio</item>
+        <item>Proportion</item>
+        <item>Proportion Word Problems</item>
+    </string-array>
+    <string-array name="citations_5">
+        <item>Ratio</item>
+        <item>Proportion</item>
+        <item>Proportion Word Problems</item>
+    </string-array>
+
+
+
+
+    <string-array name="subtopic_names_6">
+        <item>Understanding Percent</item>
+        <item>Percents, Decimals, and Fractions</item>
+        <item>Solving Percent Problems</item>
+        <item>Percent Word Problems</item>
+    </string-array>
+    <string-array name="subtopic_content_6">
+        <item>Understanding Percent</item>
+        <item>Percents, Decimals, and Fractions</item>
+        <item>Solving Percent Problems</item>
+        <item>Percent Word Problems</item>
+    </string-array>
+    <string-array name="examples_6">
+        <item>Understanding Percent</item>
+        <item>Percents, Decimals, and Fractions</item>
+        <item>Solving Percent Problems</item>
+        <item>Percent Word Problems</item>
+    </string-array>
+    <string-array name="citations_6">
+        <item>Understanding Percent</item>
+        <item>Percents, Decimals, and Fractions</item>
+        <item>Solving Percent Problems</item>
+        <item>Percent Word Problems</item>
+    </string-array>
+
+
+
+
+
+
+    <string-array name="subtopic_names_7">
+        <item>Customary Measures</item>
+        <item>Metric Measures</item>
+        <item>Converting Measurements</item>
+        <item>Scales, Meters, and Gauges</item>
+    </string-array>
+    <string-array name="subtopic_content_7">
+        <item>Customary Measures</item>
+        <item>Metric Measures</item>
+        <item>Converting Measurements</item>
+        <item>Scales, Meters, and Gauges</item>
+    </string-array>
+    <string-array name="examples_7">
+        <item>Customary Measures</item>
+        <item>Metric Measures</item>
+        <item>Converting Measurements</item>
+        <item>Scales, Meters, and Gauges</item>
+    </string-array>
+    <string-array name="citations_7">
+        <item>Customary Measures</item>
+        <item>Metric Measures</item>
+        <item>Converting Measurements</item>
+        <item>Scales, Meters, and Gauges</item>
+    </string-array>
+
+
+
+
+    <string-array name="subtopic_names_8">
+        <item>Graphs and Tables</item>
+        <item>Probability</item>
+        <item>Statistical Analysis</item>
+    </string-array>
+    <string-array name="subtopic_content_8">
+        <item>Graphs and Tables</item>
+        <item>Probability</item>
+        <item>Statistical Analysis</item>
+    </string-array>
+    <string-array name="examples_8">
+        <item>Graphs and Tables</item>
+        <item>Probability</item>
+        <item>Statistical Analysis</item>
+    </string-array>
+    <string-array name="citations_8">
+        <item>Graphs and Tables</item>
+        <item>Probability</item>
+        <item>Statistical Analysis</item>
+    </string-array>
+
+
+
+    <string-array name="subtopic_names_9">
+        <item>Common Geometric Shapes</item>
+        <item>Perimeter and Circumference</item>
+        <item>Area</item>
+        <item>Solid Figures</item>
+        <item>Volume</item>
+        <item>Triangles</item>
+        <item>Similarity and Congruence</item>
+        <item>Pythagorean Relationship</item>
+    </string-array>
+    <string-array name="subtopic_content_9">
+        <item>Common Geometric Shapes</item>
+        <item>Perimeter and Circumference</item>
+        <item>Area</item>
+        <item>Solid Figures</item>
+        <item>Volume</item>
+        <item>Triangles</item>
+        <item>Similarity and Congruence</item>
+        <item>Pythagorean Relationship</item>
+    </string-array>
+    <string-array name="examples_9">
+        <item>Common Geometric Shapes</item>
+        <item>Perimeter and Circumference</item>
+        <item>Area</item>
+        <item>Solid Figures</item>
+        <item>Volume</item>
+        <item>Triangles</item>
+        <item>Similarity and Congruence</item>
+        <item>Pythagorean Relationship</item>
+    </string-array>
+    <string-array name="citations_9">
+        <item>Common Geometric Shapes</item>
+        <item>Perimeter and Circumference</item>
+        <item>Area</item>
+        <item>Solid Figures</item>
+        <item>Volume</item>
+        <item>Triangles</item>
+        <item>Similarity and Congruence</item>
+        <item>Pythagorean Relationship</item>
+    </string-array>
+
+
+
+
+
+    <string-array name="subtopic_names_10">
+        <item>Working with Signed Numbers</item>
+        <item>Simplifying Algebraic Expressions</item>
+        <item>Solving One-Step Equations</item>
+        <item>Solving Longer Equations</item>
+        <item>Solving Inequalities</item>
+        <item>Writing Algebraic Expressions</item>
+        <item>Using Algebra to Solve Word Problems</item>
+        <item>Using Algebra to Solve Geometry Problems</item>
+    </string-array>
+    <string-array name="subtopic_content_10">
+        <item>Working with Signed Numbers</item>
+        <item>Simplifying Algebraic Expressions</item>
+        <item>Solving One-Step Equations</item>
+        <item>Solving Longer Equations</item>
+        <item>Solving Inequalities</item>
+        <item>Writing Algebraic Expressions</item>
+        <item>Using Algebra to Solve Word Problems</item>
+        <item>Using Algebra to Solve Geometry Problems</item>
+    </string-array>
+    <string-array name="examples_10">
+        <item>Working with Signed Numbers</item>
+        <item>Simplifying Algebraic Expressions</item>
+        <item>Solving One-Step Equations</item>
+        <item>Solving Longer Equations</item>
+        <item>Solving Inequalities</item>
+        <item>Writing Algebraic Expressions</item>
+        <item>Using Algebra to Solve Word Problems</item>
+        <item>Using Algebra to Solve Geometry Problems</item>
+    </string-array>
+    <string-array name="citations_10">
+        <item>Working with Signed Numbers</item>
+        <item>Simplifying Algebraic Expressions</item>
+        <item>Solving One-Step Equations</item>
+        <item>Solving Longer Equations</item>
+        <item>Solving Inequalities</item>
+        <item>Writing Algebraic Expressions</item>
+        <item>Using Algebra to Solve Word Problems</item>
+        <item>Using Algebra to Solve Geometry Problems</item>
+    </string-array>
+
+
+
+
+    <string-array name="subtopic_names_11">
+        <item>The Coordinate Plane</item>
+        <item>Linear Equations</item>
+        <item>Slope and Intercepts</item>
+        <item>Multiplying and Dividing Monomials</item>
+        <item>Factoring</item>
+        <item>Trigonometric Ratios</item>
+        <item>Quadratic Equations</item>
+    </string-array>
+    <string-array name="subtopic_content_11">
+        <item>The Coordinate Plane</item>
+        <item>Linear Equations</item>
+        <item>Slope and Intercepts</item>
+        <item>Multiplying and Dividing Monomials</item>
+        <item>Factoring</item>
+        <item>Trigonometric Ratios</item>
+        <item>Quadratic Equations</item>
+    </string-array>
+    <string-array name="examples_11">
+        <item>The Coordinate Plane</item>
+        <item>Linear Equations</item>
+        <item>Slope and Intercepts</item>
+        <item>Multiplying and Dividing Monomials</item>
+        <item>Factoring</item>
+        <item>Trigonometric Ratios</item>
+        <item>Quadratic Equations</item>
+    </string-array>
+    <string-array name="citations_11">
+        <item>The Coordinate Plane</item>
+        <item>Linear Equations</item>
+        <item>Slope and Intercepts</item>
+        <item>Multiplying and Dividing Monomials</item>
+        <item>Factoring</item>
+        <item>Trigonometric Ratios</item>
+        <item>Quadratic Equations</item>
+    </string-array>
+
+
 </resources>

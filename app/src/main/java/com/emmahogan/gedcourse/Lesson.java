@@ -9,8 +9,14 @@ import java.util.Random;
 
 public class Lesson {
 
-    // Lesson title
+    // Lesson string contents
     String title;
+    String content;
+    String example;
+    String citation;
+
+    // Number of lessons total in the current unit
+    int num_lessons_in_unit;
 
     // Unit number and lesson number
     int unit_num;
@@ -29,15 +35,15 @@ public class Lesson {
 
     /* Constructor for a Lesson object */
 
-    public Lesson(String title, int unit, int lesson_num, ArrayList<Question> questions) {
+    public Lesson(Context context, int unit, int lesson_num) {
 
-        this.title = title;
         this.unit_num = unit;
         this.lesson_num = lesson_num;
-        this.practice_questions = questions;
+        this.context = context;
+
+        populate();
 
         this.passed = false;
-
     }
 
 
@@ -77,5 +83,96 @@ public class Lesson {
     public void populate() {
         Resources r = context.getResources();
 
+        String[] title_arr;
+        String[] content_arr;
+        String[] example_arr;
+        String[] citations_arr;
+
+        switch(this.unit_num) {
+
+            case 2:
+                title_arr = r.getStringArray(R.array.subtopic_names_2);
+                content_arr = r.getStringArray(R.array.subtopic_content_2);
+                example_arr = r.getStringArray(R.array.examples_2);
+                citations_arr = r.getStringArray(R.array.citations_2);
+                break;
+
+            case 3:
+                title_arr = r.getStringArray(R.array.subtopic_names_3);
+                content_arr = r.getStringArray(R.array.subtopic_content_3);
+                example_arr = r.getStringArray(R.array.examples_3);
+                citations_arr = r.getStringArray(R.array.citations_3);
+                break;
+
+            case 4:
+                title_arr = r.getStringArray(R.array.subtopic_names_4);
+                content_arr = r.getStringArray(R.array.subtopic_content_4);
+                example_arr = r.getStringArray(R.array.examples_4);
+                citations_arr = r.getStringArray(R.array.citations_4);
+                break;
+
+            case 5:
+                title_arr = r.getStringArray(R.array.subtopic_names_5);
+                content_arr = r.getStringArray(R.array.subtopic_content_5);
+                example_arr = r.getStringArray(R.array.examples_5);
+                citations_arr = r.getStringArray(R.array.citations_5);
+                break;
+
+            case 6:
+                title_arr = r.getStringArray(R.array.subtopic_names_6);
+                content_arr = r.getStringArray(R.array.subtopic_content_6);
+                example_arr = r.getStringArray(R.array.examples_6);
+                citations_arr = r.getStringArray(R.array.citations_6);
+                break;
+
+            case 7:
+                title_arr = r.getStringArray(R.array.subtopic_names_7);
+                content_arr = r.getStringArray(R.array.subtopic_content_7);
+                example_arr = r.getStringArray(R.array.examples_7);
+                citations_arr = r.getStringArray(R.array.citations_7);
+                break;
+
+            case 8:
+                title_arr = r.getStringArray(R.array.subtopic_names_8);
+                content_arr = r.getStringArray(R.array.subtopic_content_8);
+                example_arr = r.getStringArray(R.array.examples_8);
+                citations_arr = r.getStringArray(R.array.citations_8);
+                break;
+
+            case 9:
+                title_arr = r.getStringArray(R.array.subtopic_names_9);
+                content_arr = r.getStringArray(R.array.subtopic_content_9);
+                example_arr = r.getStringArray(R.array.examples_9);
+                citations_arr = r.getStringArray(R.array.citations_9);
+                break;
+
+            case 10:
+                title_arr = r.getStringArray(R.array.subtopic_names_10);
+                content_arr = r.getStringArray(R.array.subtopic_content_10);
+                example_arr = r.getStringArray(R.array.examples_10);
+                citations_arr = r.getStringArray(R.array.citations_10);
+                break;
+
+            case 11:
+                title_arr = r.getStringArray(R.array.subtopic_names_11);
+                content_arr = r.getStringArray(R.array.subtopic_content_11);
+                example_arr = r.getStringArray(R.array.examples_11);
+                citations_arr = r.getStringArray(R.array.citations_11);
+                break;
+
+            default:
+                title_arr = r.getStringArray(R.array.subtopic_names_1);
+                content_arr = r.getStringArray(R.array.subtopic_content_1);
+                example_arr = r.getStringArray(R.array.examples_1);
+                citations_arr = r.getStringArray(R.array.citations_1);
+                break;
+        }
+
+        this.title = title_arr[this.lesson_num - 1];
+        this.content = content_arr[this.lesson_num - 1];
+        this.example = example_arr[this.lesson_num - 1];
+        this.citation = citations_arr[this.lesson_num - 1];
+
+        this.num_lessons_in_unit = title_arr.length;
     }
 }
