@@ -25,7 +25,8 @@
         <item>Arithmetic Facts</item>
         <item>The Basic Operations</item>
         <item>Shortcuts: Rounding and Estimating</item>
-        <item>Special Topics with Whole Numbers (Mean and Median, Powers, Square Roots, Number Sequences and Patterns)</item>
+        <item>Mean and Median</item>
+        <item>Powers, Square Roots, Number Sequences and Patterns)</item>
         <item>Properties of Numbers</item>
         <item>Order of Operations</item>
         <item>Using a Number Grid</item>
@@ -80,7 +81,15 @@
             These kinds of rules are called \"conventions\", and are important so we all get the same answer when doing the same problems.
             \n\nIf you\'re dealing with a whole number, all the digits to the right of the rounding digit become zero.
         </item>
-        <item>CONTENT Special Topics with Whole Numbers (Mean and Median, Powers, Square Roots, Number Sequences and Patterns)</item>
+        <item>For a set of numbers, the \"mean\" is a number that represents those numbers. The term \"mean\" is another word for the \"average\" of a set of numbers.
+            \n\n RULE:
+                \n\n\t&#8226; To find the mean of a set of numbers, add all of the numbers in the set, and then divide the sum by the size of the set (the number of numbers in the set).
+            \n\nA \"median\" of a set of numbers is the number in the middle of a group of numbers. Half of the numbers in a set are greater than the median, and half are less than the median.
+            \n\n RULE:
+            \n\n\t&#8226; To find the median for a group of numbers, first arrange the numbers in order from smallest to largest. If there is an odd number of numbers in the set, then the middle number is the median. If there is an even number of numbers in the set,
+            then the median is the mean (or average) of the two numbers in the middle.
+        </item>
+        <item>Powers, sq</item>
         <item>CONTENT Properties of Numbers</item>
         <item>CONTENT Order of Operations</item>
         <item>CONTENT Using a Number Grid</item>
@@ -119,7 +128,15 @@
                 \n\n\t&#8226;    The rule says you round up, so the answer is 7,400.
             </ul>\n
         </item>
-        <item>ex</item>
+        <item>
+            <ul>Find the mean of 10, 18, 37, and 24:
+                \n\n\t&#8226;    First find the sum of the four numbers: \n\n\t\t 10 + 18 + 37 + 23 = 88
+                \n\n\t&#8226;    Divide the sum by 4, the number of numbers in the set: \n\n\t\t 88 &#x00F7; 4 = 22
+                \n\n\t&#8226;    The mean (or average) of the set of numbers is 22.
+            </ul>
+
+        </item>
+        <item>Powers, sq</item>
         <item>ex</item>
         <item>ex</item>
         <item>ex</item>
@@ -130,7 +147,8 @@
         <item>McGraw-Hill\'s GED Mathematics Study Program</item>
         <item>McGraw-Hill\'s GED Mathematics Study Program</item>
         <item>Math.com</item>
-        <item>citation</item>
+        <item>McGraw-Hill\'s GED Mathematics Study Program</item>
+        <item>Powers, sq</item>
         <item>citation</item>
         <item>citation</item>
         <item>citation</item>
