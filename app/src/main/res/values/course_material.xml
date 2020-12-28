@@ -26,11 +26,12 @@
         <item>The Basic Operations</item>
         <item>Shortcuts: Rounding and Estimating</item>
         <item>Mean and Median</item>
-        <item>Powers, Square Roots, Number Sequences and Patterns)</item>
+        <item>Exponents and Square Roots</item>
+        <item>Number Sequences and Patterns</item>
         <item>Properties of Numbers</item>
         <item>Order of Operations</item>
-        <item>Using a Number Grid</item>
     </string-array>
+
     <string-array name="subtopic_content_1">
         <item><b>Whole Numbers </b>can be written with the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9, and are divisible by 1 with no remainder. </item>
         <item><b>Place Value: </b>In our decimal number system, the value of a digit depends on its place, or position, in the number. Each place has a value of 10 times the place to its right.
@@ -89,10 +90,61 @@
             \n\n\t&#8226; To find the median for a group of numbers, first arrange the numbers in order from smallest to largest. If there is an odd number of numbers in the set, then the middle number is the median. If there is an even number of numbers in the set,
             then the median is the mean (or average) of the two numbers in the middle.
         </item>
-        <item>Powers, sq</item>
-        <item>CONTENT Properties of Numbers</item>
-        <item>CONTENT Order of Operations</item>
-        <item>CONTENT Using a Number Grid</item>
+        <item>
+            <b>Exponents: </b>
+            \n\nExponents are a shorthand way to show how many times a number, called the base, is multiplied times itself. A number with an exponent is said to be \"raised to the power\" of that exponent.
+            \n\nAn exponent tells you how many times the base number is used as a factor. A base of five raised to the second power is called \"five squared\" and means \"five times five.\" Five raised to the third power is called \"five cubed\" and means \"five times five times five.\"
+            The base can be any sort of number: a whole number, a decimal number, or a fraction can all be raised to a power.
+            \n\n<b>RULES: </b>
+                \n\n\t&#8226;    To find a power, write out the base number as many times as the exponent indicates, then multiply.
+                \n\n\t&#8226;    Any base number raised to the power of one equals that base number.
+                \n\n\t&#8226;    1 raised to any power equals 1.
+                \n\n\t&#8226;    Any number raised to the power of zero equals 1.
+            \n\n<b>Square Roots: </b>
+            \n\nFinding the square root of a number is the inverse operation of squaring that number. Remember, the square of a number is that number times itself.
+            \n\nMany mathematical operations have an inverse, or opposite, operation. Subtraction is the opposite of addition, division is the inverse of multiplication, and so on. Squaring, which we learned about in a previous lesson (exponents), has an inverse too, called "finding the square root." Remember, the square of a number is that number times itself.
+            \n\nThe perfect squares are the squares of the whole numbers: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100 ... Square roots of non-perfect numbers can be found using a calculator, or other methods.
+            \n\nTo find the square root of a number, you ask yourself \"What number multiplied by itself equals this number?\"
+        </item>
+        <item>A <b>number sequence</b>, also called a <b>number series</b>, is a list of numbers in a specific order or pattern.
+        \n\nThe numbers 1,2,3,4,5,6,7.... form the most familiar number sequence, and the number 8 is called the next <b>term</b> in the sequence.
+        \n\n<b>On the GED you may be asked to find the missing number or the next term in a sequence. To do so, follow these steps: </b>
+            \n\n\t&#8226;   Find the pattern that changes the numbers from left to right
+            \n\n\t&#8226;   Continue this pattern to find the missing number
+        </item>
+        <item>
+            We use the following properties, or characteristics, of numbers that you will need to understand how to use in order to solve math problems.
+
+            \n\n<b>Commutative Property of Addition:</b>
+            \n\n\t<b>a + b = b + a</b>
+            \n\nThe commutative property of addition says that we can add numbers in any order. You can remember the commutative property by thinking of the numbers \"commuting,\" or changing places. The example shows us that
+            \"negative two plus positive four\" is the same as \"positive four plus negative two.\"
+
+            \n\n<b>Commutative Property of Multiplication: </b>
+            \n\n\t<b>ab = ba</b>
+            \n\nThe commutative property of multiplication is very similar. It says that we can multiply numbers in any order we want without changing the result. The example shows us that \"negative two times positive four\" is
+            the same as \"positive four times negative two.\"
+
+            \n\n<b>Associative Property of Addition: </b>
+            \n\n\t<b>(a + b) + c = a + (b + c)</b>
+            \n\nThe associative property of addition tells us that we can group numbers in a sum in any way we want and still get the same answer. You can remember the associative property by thinking of two numbers
+            associating with each other, and then one leaves to associate with another number.
+
+            \n\n<b>Associative Property of Multiplication: </b>
+            \n\n\t<b>(ab)c = a(bc)</b>
+            \n\nThe associative property of multiplication tells us that we can group numbers in a product in any way we want and still get the same answer.
+
+            \n\n<b>Distributive Property: </b>
+            \n\n\t<b>a(b + c) = ab + bc</b>
+            \n\nThe distributive property comes into play when an expression involving addition is then multiplied by something. It tells us that we can add first and then multiply, or multiply first and then add.
+            Either way, the multiplication is \"distributed\" over all the terms inside the parentheses.
+        </item>
+        <item>When expressions have more than one operation, we have to follow rules for the order of operations:
+            \n\n\t&#8226;    First, do operations inside grouping symbols
+            \n\n\t&#8226;    Next, do all work with powers (exponents and square roots) from left to right
+            \n\n\t&#8226;    Next, do multiplication or division operations from left to right
+            \n\n\t&#8226;    Last, do addition or subtraction operations from left to right
+        </item>
     </string-array>
     <string-array name="examples_1">
         <item>
@@ -136,9 +188,32 @@
             </ul>
 
         </item>
-        <item>Powers, sq</item>
-        <item>ex</item>
-        <item>ex</item>
+        <item>Powers</item>
+        <item>sq, num seq</item>
+        <item>
+            <b>Commutative Property of Addition:</b>
+            \n\n\t&#8226;    -2 + 4 = 4 + (-2)
+            \n\nThe example shows us that \"negative two plus positive four\" is the same as \"positive four plus negative two.\"
+
+            \n\n<b>Commutative Property of Multiplication:</b>
+            \n\n\t&#8226;    -2(4) = 4(-2)
+            \n\nThe example shows us that \"negative two times positive four\" is the same as \"positive four times negative two.\"
+
+            \n\n<b>Associative Property of Addition:</b>
+            \n\n\t&#8226;    (-2 + 4) + 3 = -2 + (4 + 3)
+            \n\nThe example shows us that we can either add \"negative two and positive four\" together and then add that sum to positive three
+            to get the final answer, or we can add \"positive four and positive three\" together first and then add that sum to negative two to get the final answer.
+            The answer will be the same no matter which way we do it
+
+            \n\n<b>Associative Property of Multiplication: </b>
+            \n\n\t&#8226;    (-2 x 4) x 3 = -2 (4 x 3)
+            \n\nThe example shows us that we can either multiply \"negative two and positive four\" together and then multiply that product times positive three to get the final answer,
+            or we can multiply \"positive four and positive three\" together first and then multiply that product times negative two to get the final answer. The answer will be the same no matter which way we do it.
+
+            \n\n<b>Distributive Property: </b>
+            \n\n\t&#8226;    -2(4 + 3) = -2(4) + -2(3)
+            \n\nIn the example, we can either add the numbers inside the parentheses first (4 + 3), and then multiply the result by -2; OR, we can multiply the -2 and each term separately and then add the two products together. The answer is the same in both cases.
+        </item>
         <item>ex</item>
     </string-array>
     <string-array name="citations_1">
@@ -148,10 +223,10 @@
         <item>McGraw-Hill\'s GED Mathematics Study Program</item>
         <item>Math.com</item>
         <item>McGraw-Hill\'s GED Mathematics Study Program</item>
-        <item>Powers, sq</item>
-        <item>citation</item>
-        <item>citation</item>
-        <item>citation</item>
+        <item>Math.com</item>
+        <item>McGraw-Hill\'s GED Mathematics Study Program</item>
+        <item>Math.com</item>
+        <item>Math.com</item>
     </string-array>
     <string-array name="questions_1">
         <item>What is 7488 divided by 18?</item>
