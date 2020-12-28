@@ -104,6 +104,93 @@ class list_articles : AppCompatActivity() {
                 "On the GED Math subtest, you’ll be handed out a formula sheet that you can use during your test. So there’s no need to memorizes all sorts of complex formulas.\n" +
                 "\n" +
                 "You may not need all those formulas, and you may also not require a formula for all of the questions. So train yourself in knowing what formula is used to solve what problem, and when no formula is needed at all."))
+        articles.add(Article("GED Test Accommodations for Disabilities", R.drawable.study3, "Written by Educator Dennis Pim, accessed from free resources on passged.com", "There’s a reason that you want your high school equivalency (HSE) diploma. You want a better job, and maybe a chance at college. But there’s a problem. You have a disability that makes some things in life a little harder, like taking tests. Don’t let it stop you! You can show what you know on your HSE test.\n" +
+                "\n" +
+                "All official HSE tests offer special test-taking accommodations for disabilities. These are special allowances like extra time, a separate room, or extra breaks.\n" +
+                "\n" +
+                "The accommodations you need will depend on your disability. But how to apply will depend on what test you take. That’s because the GED test is no longer the only HSE test available. Depending on your state, you may be able to take the GED, HiSET, or TASC test. Any of these three tests can earn you a state-issued HSE diploma. And all three tests provide accommodations.\n" +
+                "\n" +
+                "What Disabilities Qualify for Accommodations?\n" +
+                "\n" +
+                "Most people think of physical disabilities when they think of accommodations. But test centers provide accommodations for people with many types of disabilities:\n" +
+                "\n" +
+                "ADHD (attention deficit/hyperactivity disorder)\n" +
+                "Physical disabilities including sight or hearing impairment, difficulty using a keyboard, and chronic health problems\n" +
+                "Learning disabilities and cognitive disorders such as dyslexia\n" +
+                "Psychological and psychiatric disorders\n" +
+                "Intellectual disabilities\n" +
+                "This isn’t a complete list. No matter what disability you have—If it gives you problems taking tests, you may qualify for an accommodation.\n" +
+                "\n" +
+                "One of the most common disabilities is ADHD, or attention deficit/hyperactivity disorder. ADHD can often go undiagnosed and cause problems in school. People suffering from ADHD may drop out because school is so difficult. They can't concentrate, focus, or sit still.\n" +
+                "\n" +
+                "To get accommodations for ADHD, you'll need information from a psychiatrist, medical doctor, or psychologist who specializes in ADHD. You’ll also need information about your history and symptoms. At the doctor’s, you will probably take a test of attention, like the TOVA Gordon Diagnostic Battery. The HSE test accommodations you can receive (such as frequent breaks or extra time) will be based on your symptoms.\n" +
+                "\n" +
+                "Accommodations are also commonly given for learning disabilities, such as dyslexia (reading disabilities), dysgraphia (writing disabilities), or dyscalculia (math disabilities). For these types of disabilities, you'll need a diagnosis from a doctor. The doctor will need to report your scores on tests for learning and cognitive disabilities.\n" +
+                "\n" +
+                "Can I Get Help with Test Prep for Learning Disabilities?\n" +
+                "\n" +
+                "Test prep can also be tough if you have ADHD, a learning disability, or other disabilities. Features that can help are:\n" +
+                "\n" +
+                "The ability to study at home\n" +
+                "Being able to learn at your own pace\n" +
+                "Multi-media programs, with audio and images as well as text\n" +
+                "The truth is, the features that can help learners with disabilities also help most other learners succeed. The best study programs will let you learn at your own speed. They will explain ideas in multiple ways, using audio, images, and text. But just like testing accommodations, the best study program for you depends on your unique needs. Think about what helps you learn, and search for the study program that will help you most.\n" +
+                "\n" +
+                "What Is Allowed at the Test Center?\n" +
+                "\n" +
+                "Test centers provide some help that doesn’t need approval or a doctor’s diagnosis. Assistance may include wheelchair access, scratch paper, and your preferred seating in the room. You may also be able to bring your own resources to the test such as:\n" +
+                "\n" +
+                "Earplugs\n" +
+                "Prescription medicine\n" +
+                "Medical devices\n" +
+                "Service animals\n" +
+                "Magnifying glasses or device\n" +
+                "Seat cushions, back pillows, or foot stools\n" +
+                "Colored scratch paper\n" +
+                "A plain straightedge to help with reading\n" +
+                "Other tools\n" +
+                "Contact your local test center to confirm what help they can provide and what you can bring. Some special equipment may require an accommodation request or a notification form (like the TASC Prior Notification Form). Talking with the test center beforehand will make sure there are no misunderstandings.\n" +
+                "\n" +
+                "What Alternate Test Formats are There?\n" +
+                "\n" +
+                "You can take HSE tests in several different versions:\n" +
+                "\n" +
+                "Spanish or English\n" +
+                "Computer-based or paper-based\n" +
+                "Large print\n" +
+                "Audio\n" +
+                "Braille\n" +
+                "To take an alternate version of the TASC test, notify the testing center when you schedule your test. The testing center should be able to provide you with the correct version of the test.\n" +
+                "\n" +
+                "For the HiSET exam, a large-print version of the test should be available at the testing center. If you need an audio or braille version, you should make an accommodation request.\n" +
+                "\n" +
+                "The GED test is given only on a computer, except when there is an approved accommodation. Request an accommodation if you need a large print, audio, or braille version of the test.\n" +
+                "\n" +
+                "How Do I Apply for Accommodations?\n" +
+                "\n" +
+                "For most types of accommodations, you’ll need to apply for approval. Accommodations can include:\n" +
+                "\n" +
+                "Extra time\n" +
+                "A separate room\n" +
+                "Audio, large print, or braille tests\n" +
+                "Screen magnification for computer tests\n" +
+                "A calculator or talking calculator\n" +
+                "A scribe or aide for keyboard entry\n" +
+                "Additional breaks\n" +
+                "Sign language interpretation\n" +
+                "Each request is unique. You will need to ask for a specific accommodation. It will be considered based on your disability.\n" +
+                "\n" +
+                "All three HSE tests have processes for applying for accommodations. A qualified professional, such as your doctor, will need to provide documentation of your diagnosis and needs.\n" +
+                "\n" +
+                "For the TASC test or HiSET exam, fill out a request form for special testing:\n" +
+                "\n" +
+                "HiSET Testing Accomodations Request Form\n" +
+                "TASC Special Testing Accommodations Request Form\n" +
+                "To request accommodations for the GED test, you’ll need to create a MyGED® account on GED.com. Answer “yes” to the question: “Do you need to request accommodated testing conditions for a documented disability?” You will get a link to apply for accommodations.\n" +
+                "\n" +
+                "Talk to your doctor if you feel you need accommodations. Discuss what tests you may need to take and whether you need to see a specialist.\n" +
+                "\n" +
+                "Accommodations are important to make sure everyone has an opportunity to earn an HSE diploma. If you need special help, apply! You can earn your credential and open up doors to better jobs and more education."))
 
         val adapter = ArticleAdapter(this@list_articles, articles)
 
