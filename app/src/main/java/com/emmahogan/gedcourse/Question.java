@@ -11,4 +11,8 @@ public class Question {
 
     }
 
+    public boolean checkAnswer(String user_answer) {
+        return user_answer.equals(answer);
+    }
+
 }

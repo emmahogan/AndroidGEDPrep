@@ -36,7 +36,7 @@ class Instruction : AppCompatActivity() {
         var a_arr = r.getStringArray(R.array.answers_1)
 
         for(i in 0..11) {
-            questions.add(Question(q_arr[i], a_arr[i], false))
+            questions.add(Question(q_arr[i], a_arr[i]))
         }
 
         var title:String = subtitle_arr[0]

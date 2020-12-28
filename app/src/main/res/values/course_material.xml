@@ -24,7 +24,7 @@
         <item>Place Value</item>
         <item>Arithmetic Facts</item>
         <item>The Basic Operations</item>
-        <item>GED Test-Taking Shortcuts (Rounding, Estimating, Using a Calculator)</item>
+        <item>Shortcuts: Rounding and Estimating</item>
         <item>Special Topics with Whole Numbers (Mean and Median, Powers, Square Roots, Number Sequences and Patterns)</item>
         <item>Properties of Numbers</item>
         <item>Order of Operations</item>
@@ -67,7 +67,19 @@
                 \n\n\t&#8226;    <b>Division: </b>The answer to a division problem is called the <b>quotient</b>. The <b>&#x00F7;</b> sign, the <b>&#x27CC;</b> sign, and a slash all symbolize a division operation.
             </ul>\n
         </item>
-        <item>CONTENT GED Test-Taking Shortcuts (Rounding, Estimating, Using a Calculator)</item>
+        <item><b>Estimating</b> is an important part of mathematics and a very handy tool for everyday life. Get in the habit of estimating amounts of money, lengths of time, distances, and many other physical quantities.
+            \n\nRounding off is a kind of estimating.
+            \n\n\n<b>3 STEPS To round off whole numbers:</b>
+            <ul>
+                \n\n\t&#8226; Find the place value you want (the \"rounding digit\") and look to the digit just to the right of it.
+                \n\n\t&#8226; If that digit is less than 5, do not change the \"rounding digit\" but change all digits to the right of the \"rounding digit\" to zero.
+                \n\n\t&#8226; If that digit is greater than or equal to 5, add one to the rounding digit and change all digits to the right of the rounding digit to zero.
+            </ul>
+            \n\n\nTo round a number you must first find the rounding digit, or the digit occupying the place value you\'re rounding to. Then look at the digit to the right of the rounding digit. If it is less than 5, then leave the rounding digit unchanged.
+            If it is more than five, add one to the rounding digit. If it is five, the rule is to always round up (add one to the rounding digit). This rule was created to \"break the tie\" when you are rounding a number that is exactly between two other numbers.
+            These kinds of rules are called \"conventions\", and are important so we all get the same answer when doing the same problems.
+            \n\nIf you\'re dealing with a whole number, all the digits to the right of the rounding digit become zero.
+        </item>
         <item>CONTENT Special Topics with Whole Numbers (Mean and Median, Powers, Square Roots, Number Sequences and Patterns)</item>
         <item>CONTENT Properties of Numbers</item>
         <item>CONTENT Order of Operations</item>
@@ -99,7 +111,14 @@
             </ul>\n
         </item>
         <item>ANIMATION</item>
-        <item>EX 1</item>
+        <item>To round 7,350 to the nearest hundred:/n/n
+            <ul>
+                \n\n\t&#8226;    Find the rounding digit, 3.
+                \n\n\t&#8226;    Look at the digit to the right of the three, 5.
+                \n\n\t&#8226;    Since 7,350 is exactly halfway between 7,300 and 7,400, the two nearest multiples of one hundred, we need the rule to decide which way to round.
+                \n\n\t&#8226;    The rule says you round up, so the answer is 7,400.
+            </ul>\n
+        </item>
         <item>ex</item>
         <item>ex</item>
         <item>ex</item>
@@ -110,7 +129,7 @@
         <item>Math.com</item>
         <item>McGraw-Hill\'s GED Mathematics Study Program</item>
         <item>McGraw-Hill\'s GED Mathematics Study Program</item>
-        <item>citation</item>
+        <item>Math.com</item>
         <item>citation</item>
         <item>citation</item>
         <item>citation</item>
