@@ -13,6 +13,7 @@ class LessonView : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lesson_view)
+        setSupportActionBar(findViewById(R.id.my_toolbar))
 
         var unit_num = intent.getIntExtra("unit", 1)
         var lesson_num = intent.getIntExtra("lesson", 1)
