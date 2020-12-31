@@ -35,10 +35,9 @@
     <string-array name="subtopic_content_1">
         <item><b>Whole Numbers </b>can be written with the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9, and are divisible by 1 with no remainder. </item>
         <item><b>Place Value: </b>In our decimal number system, the value of a digit depends on its place, or position, in the number. Each place has a value of 10 times the place to its right.
-            \n\n A number in standard form is separated into groups of three digits using commas. Each of these groups is called a period.
-            \n\n The idea of place value is at the heart of our number system. First, however, a symbol for nothing—our zero—had to be invented. Zero \"holds the place\" for a particular value, when no other digit goes in that position. For example, the number \"100\" in words means one hundred, no tens, and no ones. Without a symbol for nothing, our decimal number system wouldn\'t work.
+            \n\n A number written in \"standard form\" is separated into groups of three digits using commas, for easier readability. Each of these groups is called a period.
+            \n\n The idea of place value is at the heart of our number system. First, however, a symbol for nothing —our zero— had to be invented. Zero \"holds the place\" for a particular value, when no other digit goes in that position. For example, the number \"100\" in words means one hundred, no tens, and no ones. Without a symbol for nothing, our decimal number system wouldn\'t work.
             \n\n Beginning with the ones place at the right, each place value is multiplied by increasing powers of 10. For example, the value of the first place on the right is \"one\", the value of the place to the left of it is \"ten,\" which is 10 times 1. The place to the left of the tens place is hundreds, which is 10 times 10, and so forth.
-            \n\n For easier readability, commas are used to separate each group of three digits, which is called a period. When a number is written in this form, it is said to be in \"standard form.\"
         </item>
         <item>These are some definitions that you need to know for the GED: \n
             <ul>
@@ -281,6 +280,7 @@
 
 
     <string-array name="subtopic_names_3">
+        <item>Decimals Introduction</item>
         <item>Understanding Decimals</item>
         <item>Adding and Subtracting Decimals</item>
         <item>Multiplying and Dividing Decimals</item>
@@ -288,7 +288,14 @@
         <item>Decimal Word Problems</item>
     </string-array>
     <string-array name="subtopic_content_3">
-        <item>Understanding Decimals</item>
+        <item>The zero and the counting numbers (1,2,3,...) make up the set of whole numbers. But not every number is a whole number. Our decimal system lets us write numbers of all types and sizes, using a clever symbol called the decimal point.
+        \n\nAs you move right from the decimal point, each place value is divided by 10.
+        </item>
+        <item>
+            Our decimal system of numbers lets us write numbers as large or as small as we want, using a secret weapon called the decimal point. In our number system, digits can be placed to the left and right of a decimal point, to indicate numbers greater than one or less than one. The decimal point helps us to keep track of where the \"ones\" place is.
+            It's placed just to the right of the ones place. As we move right from the decimal point, each number place is divided by 10.
+            \n\nWe can read the decimal number 127.578 as \"one hundred twenty seven and five hundred seventy-eight thousandths\". But in daily life, we'd usually read it as \"one hundred twenty seven point five seven eight.\"
+        </item>
         <item>Adding and Subtracting Decimals</item>
         <item>Multiplying and Dividing Decimals</item>
         <item>Scientific Notation with Large Numbers</item>
