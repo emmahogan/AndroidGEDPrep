@@ -5,6 +5,7 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import android.widget.VideoView
@@ -35,16 +36,6 @@ class LessonView : AppCompatActivity() {
         lessonview_example.text = lesson.example
         lessonview_citation.text = lesson.citation
 
-        watch_anim_btn.setOnClickListener {
-            val alert = Dialog(this)
-            alert.setContentView(R.layout.lesson_animation)
-
-            val videoPlayer = alert.findViewById<VideoView>(R.id.videoPlayer)
-            val vid_uri = Uri.parse("android.resource://" + packageName + "/" + R.raw.anim1_2)
-            videoPlayer.setVideoURI(vid_uri)
-            alert.show()
-        }
-
         next_btn.setOnClickListener {
 
             // Check if last lesson of last unit, if so go back to home
@@ -67,6 +58,36 @@ class LessonView : AppCompatActivity() {
 
                 startActivity(intent)
             }
+        }
+    }
+
+    fun playAnimation(view: View) {
+        val buttonClicked = findViewById<Button>(view.id)
+
+        val alert = Dialog(this@LessonView)
+        alert.setContentView(R.layout.lesson_animation)
+
+        val playButton = alert.findViewById<Button>(R.id.play_btn)
+        val videoPlayer = alert.findViewById<VideoView>(R.id.videoPlayer)
+        val pauseBtn = alert.findViewById<Button>(R.id.pause_btn)
+        val cancelBtn = alert.findViewById<Button>(R.id.cancel_btn)
+
+        if(buttonClicked.id == R.id.watch_anim_btn) {
+            val vid_uri = Uri.parse("android.resource://" + packageName + "/" + R.raw.anim1_2)
+            videoPlayer.setVideoURI(vid_uri)
+            alert.show()
+        }
+
+        playButton.setOnClickListener {
+            videoPlayer.start()
+        }
+
+        pauseBtn.setOnClickListener {
+            videoPlayer.pause()
+        }
+
+        cancelBtn.setOnClickListener {
+            alert.dismiss()
         }
     }
 }
