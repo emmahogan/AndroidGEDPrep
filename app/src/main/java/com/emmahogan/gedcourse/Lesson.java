@@ -14,6 +14,7 @@ public class Lesson {
     String content;
     String example;
     String citation;
+    String anim_uri_str;
 
     // Number of lessons total in the current unit
     int num_lessons_in_unit;
@@ -87,6 +88,7 @@ public class Lesson {
         String[] content_arr;
         String[] example_arr;
         String[] citations_arr;
+        String[] anim_arr;
 
         switch(this.unit_num) {
 
@@ -95,6 +97,8 @@ public class Lesson {
                 content_arr = r.getStringArray(R.array.subtopic_content_2);
                 example_arr = r.getStringArray(R.array.examples_2);
                 citations_arr = r.getStringArray(R.array.citations_2);
+                anim_arr = r.getStringArray(R.array.animations_1);
+
                 break;
 
             case 3:
@@ -102,6 +106,8 @@ public class Lesson {
                 content_arr = r.getStringArray(R.array.subtopic_content_3);
                 example_arr = r.getStringArray(R.array.examples_3);
                 citations_arr = r.getStringArray(R.array.citations_3);
+                anim_arr = r.getStringArray(R.array.animations_1);
+
                 break;
 
             case 4:
@@ -109,6 +115,8 @@ public class Lesson {
                 content_arr = r.getStringArray(R.array.subtopic_content_4);
                 example_arr = r.getStringArray(R.array.examples_4);
                 citations_arr = r.getStringArray(R.array.citations_4);
+                anim_arr = r.getStringArray(R.array.animations_1);
+
                 break;
 
             case 5:
@@ -116,6 +124,8 @@ public class Lesson {
                 content_arr = r.getStringArray(R.array.subtopic_content_5);
                 example_arr = r.getStringArray(R.array.examples_5);
                 citations_arr = r.getStringArray(R.array.citations_5);
+                anim_arr = r.getStringArray(R.array.animations_1);
+
                 break;
 
             case 6:
@@ -123,6 +133,8 @@ public class Lesson {
                 content_arr = r.getStringArray(R.array.subtopic_content_6);
                 example_arr = r.getStringArray(R.array.examples_6);
                 citations_arr = r.getStringArray(R.array.citations_6);
+                anim_arr = r.getStringArray(R.array.animations_1);
+
                 break;
 
             case 7:
@@ -130,6 +142,8 @@ public class Lesson {
                 content_arr = r.getStringArray(R.array.subtopic_content_7);
                 example_arr = r.getStringArray(R.array.examples_7);
                 citations_arr = r.getStringArray(R.array.citations_7);
+                anim_arr = r.getStringArray(R.array.animations_1);
+
                 break;
 
             case 8:
@@ -137,6 +151,8 @@ public class Lesson {
                 content_arr = r.getStringArray(R.array.subtopic_content_8);
                 example_arr = r.getStringArray(R.array.examples_8);
                 citations_arr = r.getStringArray(R.array.citations_8);
+                anim_arr = r.getStringArray(R.array.animations_1);
+
                 break;
 
             case 9:
@@ -144,6 +160,8 @@ public class Lesson {
                 content_arr = r.getStringArray(R.array.subtopic_content_9);
                 example_arr = r.getStringArray(R.array.examples_9);
                 citations_arr = r.getStringArray(R.array.citations_9);
+                anim_arr = r.getStringArray(R.array.animations_1);
+
                 break;
 
             case 10:
@@ -151,6 +169,8 @@ public class Lesson {
                 content_arr = r.getStringArray(R.array.subtopic_content_10);
                 example_arr = r.getStringArray(R.array.examples_10);
                 citations_arr = r.getStringArray(R.array.citations_10);
+                anim_arr = r.getStringArray(R.array.animations_1);
+
                 break;
 
             case 11:
@@ -158,6 +178,8 @@ public class Lesson {
                 content_arr = r.getStringArray(R.array.subtopic_content_11);
                 example_arr = r.getStringArray(R.array.examples_11);
                 citations_arr = r.getStringArray(R.array.citations_11);
+                anim_arr = r.getStringArray(R.array.animations_1);
+
                 break;
 
             default:
@@ -165,6 +187,8 @@ public class Lesson {
                 content_arr = r.getStringArray(R.array.subtopic_content_1);
                 example_arr = r.getStringArray(R.array.examples_1);
                 citations_arr = r.getStringArray(R.array.citations_1);
+                anim_arr = r.getStringArray(R.array.animations_1);
+
                 break;
         }
 
@@ -172,6 +196,7 @@ public class Lesson {
         this.content = content_arr[this.lesson_num - 1];
         this.example = example_arr[this.lesson_num - 1];
         this.citation = citations_arr[this.lesson_num - 1];
+        this.anim_uri_str = anim_arr[this.lesson_num - 1];
 
         this.num_lessons_in_unit = title_arr.length;
     }

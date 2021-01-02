@@ -255,6 +255,18 @@
         <item>2100</item>
         <item>47</item>
     </string-array>
+    <string-array name="animations_1">
+        <item>"android.resource://" + packageName + "/" + R.raw.anim1_1</item>
+        <item>"android.resource://" + packageName + "/" + R.raw.anim1_2</item>
+        <item>"android.resource://" + packageName + "/" + R.raw.anim1_1</item>
+        <item>"android.resource://" + packageName + "/" + R.raw.anim1_2</item>
+        <item>"android.resource://" + packageName + "/" + R.raw.anim1_1</item>
+        <item>"android.resource://" + packageName + "/" + R.raw.anim1_2</item>
+        <item>"android.resource://" + packageName + "/" + R.raw.anim1_1</item>
+        <item>"android.resource://" + packageName + "/" + R.raw.anim1_2</item>
+        <item>"android.resource://" + packageName + "/" + R.raw.anim1_1</item>
+        <item>"android.resource://" + packageName + "/" + R.raw.anim1_2</item>
+    </string-array>
 
 
 
