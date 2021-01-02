@@ -73,9 +73,10 @@ class LessonView : AppCompatActivity() {
         val cancelBtn = alert.findViewById<Button>(R.id.cancel_btn)
 
         if(buttonClicked.id == R.id.watch_anim_btn) {
-            val vid_uri = Uri.parse("android.resource://" + packageName + "/" + R.raw.anim1_2)
+            val filename:String = "anim1_1"
+            val vid_uri = Uri.parse("android.resource://" + packageName + "/" + resources.getIdentifier(filename, "raw", packageName))
             val vid_uri2 = Uri.parse(lesson.anim_uri_str)
-            videoPlayer.setVideoURI(vid_uri2)
+            videoPlayer.setVideoURI(vid_uri)
             alert.show()
         }
 
