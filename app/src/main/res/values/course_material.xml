@@ -60,7 +60,7 @@
                     5 is <b>a factor of</b> 15, and <b>the factors of</b> 12 are 1, 2, 3, 4, and 6.
             </ul>\n
         </item>
-        <item>The four basic operations in arithmetic are <b>addition, subtraction, multiplication,</b> and <b>division</b>. Read more about each below, then watch the animation for a step-by-step example of each.
+        <item>The four basic operations in arithmetic are <b>addition, subtraction, multiplication,</b> and <b>division</b>. Read more about each below, and watch the animation for a step-by-step example of each.
             <ul>
                 \n\n\t&#8226;    <b>Addition: </b>The answer to an addition problem is called the <b>sum</b>, or <b>total</b>. The symbol for an addition operation is the <b>+</b> sign.
                 \n\n\t&#8226;    <b>Subtraction: </b>The answer to a subtraction problem is called the <b>difference</b>. The symbol for the subtraction operation is the <b>-</b> sign. To find the difference between two numbers, you should put the larger number on top.
@@ -262,11 +262,27 @@
         <item>GED Problem Solving</item>
     </string-array>
     <string-array name="subtopic_content_2">
-        <item>EXAMPLE</item>
+        <item>
+            Use these five steps to work through word problems:\n
+            <ul>
+                \n\n\t&#8226;Step 1:    Understand the question: what is it asking for?
+                \n\n\t&#8226;Step 2:    Determine what information you are going to need to answer the question.
+                \n\n\t&#8226;Step 3:    Choose the arithmetic operation(s) you need to perform: addition, subtraction, multiplication, or division?
+                \n\n\t&#8226;Step 4:    Solve the problem, and remember to check your work.
+                \n\n\t&#8226;Step 5:    Double check that you answered the question you determined in step 1, and that your answer makes sense in context.
+            </ul>\n
+        </item>
         <item>EXAMPLE</item>
     </string-array>
     <string-array name="examples_2">
-        <item>Steps to Solving Word Problems</item>
+        <item>
+            Question: Bob cuts grass for 20 hours every week, making $11 an hour. How much money does he make each week?\n
+            \n\n\t&#8226;Step 1:    What is being asked: How much money does Bob make each week?
+            \n\n\t&#8226;Step 2:    Information needed: 15 hours each week, $11 per hour
+            \n\n\t&#8226;Step 3:    Arithmetic Operations: He makes $11 per hour, for 15 hours each week, so the operation is multiplying.
+            \n\n\t&#8226;Step 4:    Solve: 20 hours x $11 = $220
+            \n\n\t&#8226;Step 5:    Make sure it makes sense: $220 is a logical amount of money to make each week for a part time job cutting grass, so it does make sense. The original question, how much does he make in a week, was answered.
+        </item>
         <item>GED Problem Solving</item>
     </string-array>
     <string-array name="citations_2">
