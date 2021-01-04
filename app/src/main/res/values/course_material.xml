@@ -265,11 +265,25 @@
         <item>
             Use these five steps to work through word problems:\n
             <ul>
-                \n\n\t&#8226;Step 1:    Understand the question: what is it asking for?
-                \n\n\t&#8226;Step 2:    Determine what information you are going to need to answer the question.
-                \n\n\t&#8226;Step 3:    Choose the arithmetic operation(s) you need to perform: addition, subtraction, multiplication, or division?
-                \n\n\t&#8226;Step 4:    Solve the problem, and remember to check your work.
-                \n\n\t&#8226;Step 5:    Double check that you answered the question you determined in step 1, and that your answer makes sense in context.
+                \n\n&#8226;Step 1:    Understand the question: what is it asking for?
+                \n\nIt is important to have a clear understanding of what the question is asking for in order to move forward with solving a word problem. One strategy to help with this is to try to put the question into your own words in your head, and visualize the problem.
+                \n\n&#8226;Step 2:    Determine what information you are going to need to answer the question.
+                \n\nSometimes word problems on the GED contain more information than is necessary to solve the problem. For example, the problem could contain an extra number that is never used in the operations to solve the problem. It is important to take this second step to determine what information is relevant to answering the question you determined in step 1.
+                \nSome word problems will have an answer choice that says \"Not enough information is given\". Be very careful in choosing this answer, and make sure that the question can not be answered with the information that is given.
+                \n\n&#8226;Step 3:    Choose the arithmetic operation(s) you need to perform: addition, subtraction, multiplication, or division?
+                \n\nFor this step, make sure you read the problem carefully in order to determine the correct operation to use. There are important clues in the wording of the question, and in this section we will go over some common terms that indicate each operation.
+                \n\nAddition: The words \"sum\", \"total\", \"combined\", and \"altogether\" suggest that addition should be used.
+                \n\tExample: Anna makes $250 a week, and her mother makes $310 a week. What is their combined income each week?
+                \n\nSubtraction: The phrases \"How much more?\", \"How much less?\", \"How much greater\", \"How much smaller\", \"Find the difference\", and \"Find the balance\" all suggest that subtraction should be used.
+                \n\tExample: The maximum capacity of an elevator in an apartment building is 2500 pounds. A person weighing 185 pounds gets in. How much more weight can the elevator hold?
+                \n\nMultiplication: A word problem could give you information about one thing, and ask you to calculate an amount for several things, which suggests that multiplication should be used. For example, rates such as \"dollars per pound\", \"dollars per hour\", \"miles per gallon\", or \"rent per month\" could be used.
+                \n\tExample: If Ben can drive 34 miles with 1 gallon of gas, how far can he drive with 5 gallons of gas?
+                \n\nDivision: A problem might give you information for several things, and ask you to calculate an amount for one thing, which suggests that division should be used. Notice that this is the opposite of the typical structure for a multiplication word problem.
+                \n\tExample: If Carrie pays $7,200 per year in rent for her apartment, what is her monthly rent?
+                \n\n&#8226;Step 4:    Solve the problem, and remember to check your work.
+                \n\nFor this step, your skills in basic arithmetic operations are very important. To brush up on these skills, refer to Section 1.4 to review. Make sure that you do your math neatly and accurately, and double check your computation work for this step.
+                \n\n&#8226;Step 5:    Double check that you answered the question you determined in step 1, and that your answer makes sense in context.
+                \n\nFor this step, make sure that your answer is a reasonable answer to the question being asked, in context. Use common sense, and you can even use estimation to make sure that your answer is logical.
             </ul>\n
         </item>
         <item>EXAMPLE</item>
@@ -286,7 +300,7 @@
         <item>GED Problem Solving</item>
     </string-array>
     <string-array name="citations_2">
-        <item>Steps to Solving Word Problems</item>
+        <item>McGraw-Hill\'s GED Mathematics Study Program</item>
         <item>GED Problem Solving</item>
     </string-array>
 
