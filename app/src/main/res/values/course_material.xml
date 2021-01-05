@@ -289,7 +289,9 @@
         <item>
             Multistep Problems:
             \n\n\tWord problems may require you to perform more than one operation to get to the solution. Think about each individual step carefully, and make sure to be just as accurate with each step because each part of a multistep problem must be correct to reach the correct solution.
-            \n\n
+            \n\nItem Sets:
+            \n\n\tItem sets are longer questions, usually a few short sentences or a few short paragraphs, that give you enough information to answer several different questions.
+            \n\tFor these questions, it is very important to make sure you are answering the right question, and to only use the information you need to answer that question.
         </item>
     </string-array>
     <string-array name="examples_2">
@@ -307,6 +309,14 @@
             \n\n\t&#8226;Step 1:    Find how much she makes each week from her first job: Multiply the hours worked per week by the hourly pay rate, 30 x 11 = $330.
             \n\n\t&#8226;Step 2:    Find how much she makes each week at her second job: Multiply the hours worked per week by the hourly pay rate, 10 x 8 = $80.
             \n\n\t&#8226;Step 3:    Add the two products: 330 + 80 = $410.
+            \n\n\nItem Sets Example:
+            \n\nHaley and Jay have visited two apartments that they like. Apartment A has a monthly rent of $510 for the first year. The rent for the second year costs an additional $30 each month. Also, the rent for Apartment A includes heat. The rent for Apartment B costs $460 per month for 2 years. The rent for Apartment B does not include heat. The landlord for apartment B says that the heating bill averages $85 per month.
+            \n\nQuestion 1: Find the yearly rent for apartment A for the second year.
+            \n\n\t&#8226;Step 1:    Add the monthly increase to find the rent per month for the second year:   $510 + $30 = $540
+            \n\n\t&#8226;Step 2:    Multiply the monthly rent by 12:   $540 x 12 = $6,480
+            \n\nQuestion 2: Assuming that the landlord's estimate of the monthly heating cost is correct, find the total rent and heating cost for 1 year in apartment B.
+            \n\n\t&#8226;Step 1:    Add the monthly rent and heating costs:   $460 + $85 = $545
+            \n\n\t&#8226;Step 2:    Multiply the monthly total by 12:   $545 x 12 = $6,540
         </item>
     </string-array>
     <string-array name="citations_2">
