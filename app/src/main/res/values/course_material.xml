@@ -321,7 +321,7 @@
     </string-array>
     <string-array name="citations_2">
         <item>McGraw-Hill\'s GED Mathematics Study Program</item>
-        <item>GED Problem Solving</item>
+        <item>McGraw-Hill\'s GED Mathematics Study Program</item>
     </string-array>
 
 
@@ -345,12 +345,34 @@
             It\'s placed just to the right of the ones place. As we move right from the decimal point, each number place is divided by 10.
             \n\nWe can read the decimal number 127.578 as \"one hundred twenty seven and five hundred seventy-eight thousandths\". But in daily life, we\'d usually read it as \"one hundred twenty seven point five seven eight.\"
         </item>
-        <item>Adding and Subtracting Decimals</item>
-        <item>Multiplying and Dividing Decimals</item>
+        <item>Once you know how to add and subtract whole numbers, you can add and subtract decimals too! Just make sure that the decimal points are in a vertical line when you stack the numbers on top of each other, much like you keep the units digits in the same vertical column, the tens digits in the same vertical column, and so on.
+            \n\nTo add decimal numbers:
+            \n\n\t&#8226;Step 1:    Put the numbers in a vertical column, aligning the decimal points
+            \n\n\t&#8226;Step 2:    Add each column of digits, going from right to left. If the sum of a column is more than ten, \"carry\" digits to the next column on the left.
+            \n\n\t&#8226;Step 3:    Place the decimal point in the answer directly below the decimal points in the terms.
+            \n\nTo subtract decimal numbers:
+            \n\n\t&#8226;Step 1:    Put the numbers in a vertical column, aligning the decimal points
+            \n\n\t&#8226;Step 2:    Subtract each column, going from right to left. If the digit being subtracted in a column is larger than the digit above it, \"borrow\" a digit from the next column to the left.
+            \n\n\t&#8226;Step 3:    Place the decimal point in the answer directly below the decimal points in the terms.
+            \n\n\t&#8226;Step 4:    You can check your answer by adding the result to the number you subtracted. The sum should equal the first number.
+        </item>
+        <item>
+            To multiply decimal numbers:
+            \n\n\t&#8226;Step 1:    Multiply the numbers just as if they were whole numbers:
+            \n\n\t\t&#8226;    Line up the numbers on the right, and DO NOT align the decimal points as you would in adding\/subtracting.
+            \n\n\t\t&#8226;    Starting on the right, multiply each digit in the top number by each digit in the bottom number, just as with whole numbers.
+            \n\n\t\t&#8226;    Add the products.
+            \n\n\t&#8226;Step 2:    Place the decimal point in the answer by starting at the right and moving a number of places equal to the sum of the decimal places in both numbers multiplied.
+            \n\nTo divide decimal numbers:
+            \n\n\t&#8226;Step 1:    If the divisor is not a whole number, move the decimal point in the divisor all the way to the right (to make it a whole number), decimal point in the dividend the same number of places.
+            \n\n\t&#8226;Step 2:    Divide as usual. If the divisor doesn't go into the dividend evenly, add zeroes to the right of the last digit in the dividend and keep dividing until it comes out evenly or a repeating pattern shows up.
+            \n\n\t&#8226;Step 3:    Position the decimal point in the result directly above the decimal point in the dividend.
+        </item>
         <item>Scientific Notation with Large Numbers</item>
         <item>Decimal Word Problems</item>
     </string-array>
     <string-array name="examples_3">
+        <item>Decimals Introduction</item>
         <item>Understanding Decimals</item>
         <item>Adding and Subtracting Decimals</item>
         <item>Multiplying and Dividing Decimals</item>
@@ -358,9 +380,10 @@
         <item>Decimal Word Problems</item>
     </string-array>
     <string-array name="citations_3">
-        <item>Understanding Decimals</item>
-        <item>Adding and Subtracting Decimals</item>
-        <item>Multiplying and Dividing Decimals</item>
+        <item>Math.com</item>
+        <item>Math.com</item>
+        <item>Math.com</item>
+        <item>Math.com</item>
         <item>Scientific Notation with Large Numbers</item>
         <item>Decimal Word Problems</item>
     </string-array>
