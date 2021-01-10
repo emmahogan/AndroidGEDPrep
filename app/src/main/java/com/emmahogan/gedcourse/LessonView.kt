@@ -33,7 +33,7 @@ class LessonView : AppCompatActivity() {
         val lessonview_citation = findViewById<TextView>(R.id.lessonview_citation)
         val next_btn = findViewById<Button>(R.id.next_btn)
 
-        lessonview_title.text = lesson.title
+        lessonview_title.text = unit_num.toString() + "." + lesson_num.toString() + " " + lesson.title
         lessonview_content.text = lesson.content
         lessonview_example.text = lesson.example
         lessonview_citation.text = lesson.citation
@@ -43,7 +43,7 @@ class LessonView : AppCompatActivity() {
             watch_anim_btn.visibility = View.VISIBLE
             vid_uri = Uri.parse("android.resource://" + packageName + "/" + resources.getIdentifier(filename, "raw", packageName))
         } else {
-            watch_anim_btn.visibility = View.INVISIBLE
+            watch_anim_btn.visibility = View.GONE
         }
 
         next_btn.setOnClickListener {
