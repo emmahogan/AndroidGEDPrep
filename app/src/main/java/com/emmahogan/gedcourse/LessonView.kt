@@ -9,10 +9,12 @@ import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import android.widget.VideoView
+import androidx.core.view.isVisible
 
 class LessonView : AppCompatActivity() {
 
     lateinit var lesson: Lesson
+    lateinit var vid_uri: Uri
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -35,6 +37,14 @@ class LessonView : AppCompatActivity() {
         lessonview_content.text = lesson.content
         lessonview_example.text = lesson.example
         lessonview_citation.text = lesson.citation
+
+        val filename:String = "anim" + lesson.unit_num + "_" + lesson.lesson_num
+        if(resources.getIdentifier(filename, "raw", packageName) != 0) {
+            watch_anim_btn.visibility = View.VISIBLE
+            vid_uri = Uri.parse("android.resource://" + packageName + "/" + resources.getIdentifier(filename, "raw", packageName))
+        } else {
+            watch_anim_btn.visibility = View.INVISIBLE
+        }
 
         next_btn.setOnClickListener {
 
@@ -73,8 +83,6 @@ class LessonView : AppCompatActivity() {
         val cancelBtn = alert.findViewById<Button>(R.id.cancel_btn)
 
         if(buttonClicked.id == R.id.watch_anim_btn) {
-            val filename:String = "anim" + lesson.unit_num + "_" + lesson.lesson_num
-            val vid_uri = Uri.parse("android.resource://" + packageName + "/" + resources.getIdentifier(filename, "raw", packageName))
             videoPlayer.setVideoURI(vid_uri)
             alert.show()
         }
