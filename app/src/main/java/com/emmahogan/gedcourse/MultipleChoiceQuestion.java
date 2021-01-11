@@ -8,6 +8,8 @@ public class MultipleChoiceQuestion{
     public String option3;
     public int answer_pos;
 
+    public MultipleChoiceQuestion() {}
+
     public MultipleChoiceQuestion(String question, String option1, String option2, String option3, int answer_pos) {
         this.question = question;
         this.option1 = option1;
