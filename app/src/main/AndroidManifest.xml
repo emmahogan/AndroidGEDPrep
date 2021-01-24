@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GEDCourse">
-        <activity android:name=".TakeQuiz"></activity>
+        <activity android:name=".FinishQuiz"></activity>
+        <activity android:name=".TakeQuiz" />
         <activity android:name=".QuizActivity" />
         <activity android:name=".LessonView" />
         <activity android:name=".Instruction" />

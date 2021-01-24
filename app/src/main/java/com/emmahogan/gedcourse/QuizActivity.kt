@@ -10,6 +10,7 @@ class QuizActivity : AppCompatActivity() {
 
     lateinit var lesson: Lesson
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quiz)

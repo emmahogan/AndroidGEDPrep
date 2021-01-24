@@ -1,5 +1,6 @@
 package com.emmahogan.gedcourse
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -8,6 +9,8 @@ import android.widget.RadioGroup
 import android.widget.TextView
 
 class TakeQuiz : AppCompatActivity() {
+
+    lateinit var lesson: Lesson
 
     lateinit var question_textview: TextView
     lateinit var score_textview: TextView
@@ -25,6 +28,12 @@ class TakeQuiz : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_take_quiz)
 
+
+        var unit_num = intent.getIntExtra("unit", 1)
+        var lesson_num = intent.getIntExtra("lesson", 1)
+
+        lesson = Lesson(applicationContext,unit_num,lesson_num)
+
         question_textview = findViewById(R.id.quiz_question)
         score_textview = findViewById(R.id.quiz_score)
         count_textview = findViewById(R.id.quiz_question_count)
@@ -36,5 +45,17 @@ class TakeQuiz : AppCompatActivity() {
 
         dbHelper = QuizDBHelper(applicationContext)
         questionsList = dbHelper.questions
+
+        submit_btn.setOnClickListener {
+            endQuiz()
+        }
+    }
+
+    private fun endQuiz() {
+        val intent = Intent(this@TakeQuiz, FinishQuiz::class.java)
+        intent.putExtra("unit", lesson.unit_num)
+        intent.putExtra("lesson", lesson.lesson_num)
+
+        startActivity(intent)
     }
 }
