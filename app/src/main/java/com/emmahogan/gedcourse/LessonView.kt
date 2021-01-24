@@ -48,26 +48,12 @@ class LessonView : AppCompatActivity() {
 
         next_btn.setOnClickListener {
 
-            // Check if last lesson of last unit, if so go back to home
-            if(unit_num == 11 && lesson_num == 7) {
-                startActivity(Intent(this@LessonView, MainActivity::class.java))
-            } else {
+            val intent = Intent(this@LessonView, QuizActivity::class.java)
+            intent.putExtra("unit", unit_num)
+            intent.putExtra("lesson", lesson_num)
 
-                // Check if last lesson in unit
-                if (lesson_num == lesson.num_lessons_in_unit) {
-                    unit_num++
-                    lesson_num = 1
+            startActivity(intent)
 
-                } else {
-                    lesson_num++
-                }
-
-                val intent = Intent(this@LessonView, LessonView::class.java)
-                intent.putExtra("unit", unit_num)
-                intent.putExtra("lesson", lesson_num)
-
-                startActivity(intent)
-            }
         }
     }
 
