@@ -11,20 +11,25 @@ class FinishQuiz : AppCompatActivity() {
     lateinit var lesson: Lesson
     lateinit var next_btn: Button
 
-    var highscore: Int = 0
-
-    // Variables needed for saving score in shared preferences
+    // Used to access shared preferences for highscore
     val SHARED_PREFS: String = "sharedPrefs"
+    val prefs: SharedPreferences = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE)
+
+    // Keys saved in shared prefs
+    val KEY_CURR_UNIT: String = "KEY_CURR_UNIT"
+    val KEY_CURR_LESSON: String = "KEY_CURR_LESSON"
     lateinit var KEY_HIGHSCORE: String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_finish_quiz)
 
-        var unit_num = intent.getIntExtra("unit", 1)
-        var lesson_num = intent.getIntExtra("lesson", 1)
+        // Get current unit and lesson numbers from shared preferences, or default 1.1
+        var unit_num = prefs.getInt(KEY_CURR_UNIT, 1)
+        var lesson_num = prefs.getInt(KEY_CURR_LESSON, 1)
 
-        lesson = Lesson(applicationContext, unit_num, lesson_num)
+        // Set current lesson
+        lesson = Lesson(applicationContext,unit_num,lesson_num)
 
         // Get final score of quiz from intent extra
         val numCorrect: Int = intent.getIntExtra("score", 0)
@@ -53,11 +58,7 @@ class FinishQuiz : AppCompatActivity() {
                     lesson_num++
                 }
 
-                val intent = Intent(this@FinishQuiz, LessonView::class.java)
-                intent.putExtra("unit", unit_num)
-                intent.putExtra("lesson", lesson_num)
-
-                startActivity(intent)
+                startActivity(Intent(this@FinishQuiz, LessonView::class.java))
             }
         }
 
