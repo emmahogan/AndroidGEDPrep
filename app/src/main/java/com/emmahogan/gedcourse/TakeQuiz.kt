@@ -1,6 +1,7 @@
 package com.emmahogan.gedcourse
 
 import android.content.Intent
+import android.content.SharedPreferences
 import android.content.res.ColorStateList
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
@@ -10,8 +11,18 @@ import java.util.*
 
 class TakeQuiz : AppCompatActivity() {
 
+    // Holds current lesson
     lateinit var lesson: Lesson
 
+    // Used to access shared preferences for highscore
+    val SHARED_PREFS: String = "sharedPrefs"
+    val prefs: SharedPreferences = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE)
+
+    // Keys for current unit and lesson numbers saved in shared prefs
+    val KEY_CURR_UNIT: String = "KEY_CURR_UNIT"
+    val KEY_CURR_LESSON: String = "KEY_CURR_LESSON"
+
+    // All components in quiz layout
     lateinit var question_textview: TextView
     lateinit var score_textview: TextView
     lateinit var count_textview: TextView
@@ -37,10 +48,11 @@ class TakeQuiz : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_take_quiz)
 
+        // Get current unit and lesson numbers from shared preferences, or default 1.1
+        var unit_num = prefs.getInt(KEY_CURR_UNIT, 1)
+        var lesson_num = prefs.getInt(KEY_CURR_LESSON, 1)
 
-        var unit_num = intent.getIntExtra("unit", 1)
-        var lesson_num = intent.getIntExtra("lesson", 1)
-
+        // Set current lesson
         lesson = Lesson(applicationContext,unit_num,lesson_num)
 
         question_textview = findViewById(R.id.quiz_question)
@@ -178,8 +190,6 @@ class TakeQuiz : AppCompatActivity() {
 
     private fun endQuiz() {
         val intent = Intent(this@TakeQuiz, FinishQuiz::class.java)
-        intent.putExtra("unit", lesson.unit_num)
-        intent.putExtra("lesson", lesson.lesson_num)
         intent.putExtra("score", score)
         intent.putExtra("total", questionTotal)
 

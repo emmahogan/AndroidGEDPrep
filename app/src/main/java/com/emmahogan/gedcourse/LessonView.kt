@@ -2,6 +2,7 @@ package com.emmahogan.gedcourse
 
 import android.app.Dialog
 import android.content.Intent
+import android.content.SharedPreferences
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -19,14 +20,23 @@ class LessonView : AppCompatActivity() {
     // Variables needed for using shared preferences
     val SHARED_PREFS: String = "sharedPrefs"
 
+    // Keys for current unit and lesson numbers saved in shared prefs
+    val KEY_CURR_UNIT: String = "KEY_CURR_UNIT"
+    val KEY_CURR_LESSON: String = "KEY_CURR_LESSON"
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lesson_view)
         setSupportActionBar(findViewById(R.id.my_toolbar))
 
-        var unit_num = intent.getIntExtra("unit", 1)
-        var lesson_num = intent.getIntExtra("lesson", 1)
+        // Initialize shared preferences
+        var prefs: SharedPreferences = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE)
 
+        // Get current unit and lesson numbers from shared preferences, or default 1.1
+        var unit_num = prefs.getInt(KEY_CURR_UNIT, 1)
+        var lesson_num = prefs.getInt(KEY_CURR_LESSON, 1)
+
+        // Set current lesson
         lesson = Lesson(applicationContext,unit_num,lesson_num)
 
         // Call external method to initialize all lesson text in textviews
@@ -35,16 +45,11 @@ class LessonView : AppCompatActivity() {
         // Call external method to initialize animation button if animation exists for lesson
         initAnimBtn()
 
+        // Set next btn to direct user to quiz start page for current lesson
         val next_btn = findViewById<Button>(R.id.next_btn)
 
         next_btn.setOnClickListener {
-
-            val intent = Intent(this@LessonView, QuizActivity::class.java)
-            intent.putExtra("unit", unit_num)
-            intent.putExtra("lesson", lesson_num)
-
-            startActivity(intent)
-
+            startActivity(Intent(this@LessonView, QuizActivity::class.java))
         }
     }
 
