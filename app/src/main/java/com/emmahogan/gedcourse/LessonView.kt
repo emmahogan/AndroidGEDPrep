@@ -29,20 +29,13 @@ class LessonView : AppCompatActivity() {
 
         lesson = Lesson(applicationContext,unit_num,lesson_num)
 
-        val lessonview_title = findViewById<TextView>(R.id.lessonview_title)
-
-        val lessonview_content = findViewById<TextView>(R.id.lessonview_content)
-        val lessonview_example = findViewById<TextView>(R.id.lessonview_example)
-        val lessonview_citation = findViewById<TextView>(R.id.lessonview_citation)
-        val next_btn = findViewById<Button>(R.id.next_btn)
-
-        lessonview_title.text = unit_num.toString() + "." + lesson_num.toString() + " " + lesson.title
-        lessonview_content.text = lesson.content
-        lessonview_example.text = lesson.example
-        lessonview_citation.text = lesson.citation
+        // Call external method to initialize all lesson text in textviews
+        initLessonText()
 
         // Call external method to initialize animation button if animation exists for lesson
         initAnimBtn()
+
+        val next_btn = findViewById<Button>(R.id.next_btn)
 
         next_btn.setOnClickListener {
 
@@ -53,6 +46,22 @@ class LessonView : AppCompatActivity() {
             startActivity(intent)
 
         }
+    }
+
+    /* Method to initialize all lesson text in textviews */
+
+    private fun initLessonText() {
+        // Fetch all textviews from layout
+        val lessonview_title = findViewById<TextView>(R.id.lessonview_title)
+        val lessonview_content = findViewById<TextView>(R.id.lessonview_content)
+        val lessonview_example = findViewById<TextView>(R.id.lessonview_example)
+        val lessonview_citation = findViewById<TextView>(R.id.lessonview_citation)
+
+        // Initialize with the correct content for current lesson
+        lessonview_title.text = lesson.unit_num.toString() + "." + lesson.lesson_num.toString() + " " + lesson.title
+        lessonview_content.text = lesson.content
+        lessonview_example.text = lesson.example
+        lessonview_citation.text = lesson.citation
     }
 
     /* Method to initialize animation button if animation exists for lesson */
