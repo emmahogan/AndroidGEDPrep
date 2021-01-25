@@ -20,6 +20,9 @@ class FinishQuiz : AppCompatActivity() {
     val KEY_CURR_LESSON: String = "KEY_CURR_LESSON"
     lateinit var KEY_HIGHSCORE: String
 
+    // Used to edit shared prefs
+    val editor: SharedPreferences.Editor = prefs.edit()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_finish_quiz)
@@ -51,13 +54,23 @@ class FinishQuiz : AppCompatActivity() {
 
                 // Check if last lesson in unit
                 if (lesson_num == lesson.num_lessons_in_unit) {
+
+                    // Increment unit and set lesson number to one
                     unit_num++
                     lesson_num = 1
 
                 } else {
+
+                    // Just increment lesson number
                     lesson_num++
                 }
 
+                // Save new current lesson in shared preferences
+                editor.putInt(KEY_CURR_LESSON, lesson_num)
+                editor.putInt(KEY_CURR_UNIT, unit_num)
+                editor.apply()
+
+                // Go to next lesson
                 startActivity(Intent(this@FinishQuiz, LessonView::class.java))
             }
         }
@@ -69,14 +82,11 @@ class FinishQuiz : AppCompatActivity() {
         // Set name for highscore key in shared preferences with lesson and unit nums
         KEY_HIGHSCORE = "KEY_HIGHSCORE_" + lesson.unit_num + "_" + lesson.lesson_num
 
-        var prefs: SharedPreferences = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE)
-
         // Fetch the current highscore
         var currHigh = prefs.getInt(KEY_HIGHSCORE, 0)
 
         // If current score is greater than current high score, save in shared preferences
         if (currScore > currHigh) {
-            var editor: SharedPreferences.Editor = prefs.edit()
             editor.putInt(KEY_HIGHSCORE, currScore)
             editor.apply()
         }
