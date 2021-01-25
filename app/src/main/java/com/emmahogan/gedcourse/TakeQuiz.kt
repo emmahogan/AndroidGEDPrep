@@ -35,12 +35,22 @@ class TakeQuiz : AppCompatActivity() {
     // To save default color for text, which will be changed to red or green depending on if the answer is correct
     lateinit var textColorDefRb: ColorStateList
 
+    // Current question index
     var questionCounter: Int = 0
+
+    // Total number of questions in quiz
     var questionTotal: Int = 0
+
+    // Current question
     lateinit var currQuestion: MultipleChoiceQuestion
+
+    // Current score
     var score: Int = 0
+
+    // Whether current question has been answered
     var answered: Boolean = false
 
+    // Variables needed to assist in getting quiz questions from DB
     lateinit var dbHelper: QuizDBHelper
     lateinit var questionsList: List<MultipleChoiceQuestion>
 
@@ -188,6 +198,7 @@ class TakeQuiz : AppCompatActivity() {
         }
     }
 
+    /* Method to end quiz and start FinishQuiz activity, also sending the score and total number of questions */
     private fun endQuiz() {
         val intent = Intent(this@TakeQuiz, FinishQuiz::class.java)
         intent.putExtra("score", score)
