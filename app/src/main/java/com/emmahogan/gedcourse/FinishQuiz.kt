@@ -27,8 +27,11 @@ class FinishQuiz : AppCompatActivity() {
         lesson = Lesson(applicationContext, unit_num, lesson_num)
 
         // Get final score of quiz from intent extra
-        var score: Int = intent.getIntExtra("score", 0)
-        var total: Int = intent.getIntExtra("total", 0)
+        val numCorrect: Int = intent.getIntExtra("score", 0)
+        val total: Int = intent.getIntExtra("total", 0)
+
+        // Divide numCorrect by total and multiply by 100 to get score
+        val score:Int = (numCorrect * 100)/total
 
         // Call external method to save high score in shared preferences
         saveHighScore(score);

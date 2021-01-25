@@ -40,7 +40,9 @@ class QuizActivity : AppCompatActivity() {
 
         // Display current high score in textview
         val highscore_textview:TextView = findViewById(R.id.highscore_textview)
-        highscore_textview.text = "Current High Score: " + curr_highscore
+        highscore_textview.text = "Current High Score: "
+        val highscore_val:TextView = findViewById(R.id.highscore_val_textview)
+        highscore_val.text = curr_highscore.toString() + "%"
 
         val start_quiz_btn:Button = findViewById(R.id.start_quiz_btn)
         start_quiz_btn.setOnClickListener {
