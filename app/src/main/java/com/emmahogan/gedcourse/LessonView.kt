@@ -16,6 +16,9 @@ class LessonView : AppCompatActivity() {
     lateinit var lesson: Lesson
     lateinit var vid_uri: Uri
 
+    // Variables needed for using shared preferences
+    val SHARED_PREFS: String = "sharedPrefs"
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lesson_view)
@@ -27,7 +30,7 @@ class LessonView : AppCompatActivity() {
         lesson = Lesson(applicationContext,unit_num,lesson_num)
 
         val lessonview_title = findViewById<TextView>(R.id.lessonview_title)
-        val watch_anim_btn = findViewById<Button>(R.id.watch_anim_btn)
+
         val lessonview_content = findViewById<TextView>(R.id.lessonview_content)
         val lessonview_example = findViewById<TextView>(R.id.lessonview_example)
         val lessonview_citation = findViewById<TextView>(R.id.lessonview_citation)
@@ -38,13 +41,8 @@ class LessonView : AppCompatActivity() {
         lessonview_example.text = lesson.example
         lessonview_citation.text = lesson.citation
 
-        val filename:String = "anim" + lesson.unit_num + "_" + lesson.lesson_num
-        if(resources.getIdentifier(filename, "raw", packageName) != 0) {
-            watch_anim_btn.visibility = View.VISIBLE
-            vid_uri = Uri.parse("android.resource://" + packageName + "/" + resources.getIdentifier(filename, "raw", packageName))
-        } else {
-            watch_anim_btn.visibility = View.GONE
-        }
+        // Call external method to initialize animation button if animation exists for lesson
+        initAnimBtn()
 
         next_btn.setOnClickListener {
 
@@ -54,6 +52,26 @@ class LessonView : AppCompatActivity() {
 
             startActivity(intent)
 
+        }
+    }
+
+    /* Method to initialize animation button if animation exists for lesson */
+    private fun initAnimBtn() {
+
+        // Fetch button
+        val watchAnimBtn = findViewById<Button>(R.id.watch_anim_btn)
+
+        // Get filename for resource using current lesson num and unit num
+        val filename:String = "anim" + lesson.unit_num + "_" + lesson.lesson_num
+
+        // If an animation video exists under this filename in resources, connect and display button
+        if(resources.getIdentifier(filename, "raw", packageName) != 0) {
+            watchAnimBtn.visibility = View.VISIBLE
+            vid_uri = Uri.parse("android.resource://" + packageName + "/" + resources.getIdentifier(filename, "raw", packageName))
+        } else {
+
+            // If no animation video exists for this lesson, do not display button
+            watchAnimBtn.visibility = View.GONE
         }
     }
 
