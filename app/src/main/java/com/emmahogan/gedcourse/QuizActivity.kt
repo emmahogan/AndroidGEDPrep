@@ -5,6 +5,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 
 class QuizActivity : AppCompatActivity() {
 
@@ -23,7 +24,9 @@ class QuizActivity : AppCompatActivity() {
 
         lesson = Lesson(applicationContext,unit_num,lesson_num)
 
-
+        // Set text above start quiz button to show title of current lesson
+        val topics_textview:TextView = findViewById(R.id.quiz_topics)
+        topics_textview.text = "Press start to begin the quiz on Section " + lesson.unit_num + "." + lesson.lesson_num + ", " + lesson.title
 
         val start_quiz_btn:Button = findViewById(R.id.start_quiz_btn)
         start_quiz_btn.setOnClickListener {

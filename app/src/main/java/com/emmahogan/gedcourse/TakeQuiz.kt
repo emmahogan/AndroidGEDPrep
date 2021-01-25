@@ -180,6 +180,8 @@ class TakeQuiz : AppCompatActivity() {
         val intent = Intent(this@TakeQuiz, FinishQuiz::class.java)
         intent.putExtra("unit", lesson.unit_num)
         intent.putExtra("lesson", lesson.lesson_num)
+        intent.putExtra("score", score)
+        intent.putExtra("total", questionTotal)
 
         startActivity(intent)
     }
