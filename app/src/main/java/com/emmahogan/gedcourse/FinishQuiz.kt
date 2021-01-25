@@ -46,7 +46,7 @@ class FinishQuiz : AppCompatActivity() {
         next_btn.setOnClickListener {
             // Check if last lesson of last unit, if so go back to home
             if (unit_num == 11 && lesson_num == 7) {
-                startActivity(Intent(this@FinishQuiz, MainActivity::class.java))
+                startActivity(Intent(this@FinishQuiz, CourseComplete::class.java))
             } else {
 
                 // Check if last lesson in unit
