@@ -1,10 +1,14 @@
-package com.emmahogan.gedcourse
+package com.emmahogan.gedcourse.quiz
 
 import android.content.Intent
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.emmahogan.gedcourse.instruction.CourseComplete
+import com.emmahogan.gedcourse.instruction.Lesson
+import com.emmahogan.gedcourse.instruction.LessonView
+import com.emmahogan.gedcourse.R
 
 class FinishQuiz : AppCompatActivity() {
 
@@ -32,7 +36,11 @@ class FinishQuiz : AppCompatActivity() {
         var lesson_num = prefs.getInt(KEY_CURR_LESSON, 1)
 
         // Set current lesson
-        lesson = Lesson(applicationContext,unit_num,lesson_num)
+        lesson = Lesson(
+            applicationContext,
+            unit_num,
+            lesson_num
+        )
 
         // Get final score of quiz from intent extra
         val numCorrect: Int = intent.getIntExtra("score", 0)

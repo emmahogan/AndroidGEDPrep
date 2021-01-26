@@ -1,8 +1,10 @@
-package com.emmahogan.gedcourse;
+package com.emmahogan.gedcourse.instruction;
 
 
 import android.content.Context;
 import android.content.res.Resources;
+
+import com.emmahogan.gedcourse.quiz.MultipleChoiceQuestion;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -10,20 +12,20 @@ import java.util.Random;
 public class Lesson {
 
     // Lesson string contents
-    String title;
-    String content;
-    String example;
-    String citation;
+    public String title;
+    public String content;
+    public String example;
+    public String citation;
 
     // Number of lessons total in the current unit
-    int num_lessons_in_unit;
+    public int num_lessons_in_unit;
 
     // Unit number and lesson number
-    int unit_num;
-    int lesson_num;
+    public int unit_num;
+    public int lesson_num;
 
     // Practice questions for lesson
-    ArrayList<Question> practice_questions = new ArrayList<Question>();
+    ArrayList<MultipleChoiceQuestion> practice_questions = new ArrayList<MultipleChoiceQuestion>();
 
     // Whether user has passed this lesson or not
     Boolean passed;
@@ -51,7 +53,7 @@ public class Lesson {
     associated with this lesson, returned as an ArrayList of questions.
      */
 
-    public Question[] getRandomQuestions(int num_questions) {
+    public MultipleChoiceQuestion[] getRandomQuestions(int num_questions) {
 
         int totalQuestions = practice_questions.size();
         int pos;
@@ -63,7 +65,7 @@ public class Lesson {
             max = totalQuestions;
         }
 
-        Question[] return_questions = new Question[max];
+        MultipleChoiceQuestion[] return_questions = new MultipleChoiceQuestion[max];
 
         for(int i=0; i<max; i++){
 

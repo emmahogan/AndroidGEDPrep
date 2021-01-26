@@ -1,18 +1,15 @@
 package com.emmahogan.gedcourse
 
 import android.content.Context
-import android.content.Intent
 import android.content.res.Resources
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.Html
-import android.widget.AdapterView
 import android.widget.ListView
-import androidx.core.text.HtmlCompat
+import com.emmahogan.gedcourse.instruction.Lesson
 
 class Instruction : AppCompatActivity() {
 
-    lateinit var lesson:Lesson
+    lateinit var lesson: Lesson
     lateinit var context:Context
     lateinit var r:Resources
 
@@ -30,13 +27,13 @@ class Instruction : AppCompatActivity() {
 
     fun initLessonData() {
 
-        var questions = ArrayList<Question>()
+        //var questions = ArrayList<Question>()
         var subtitle_arr = r.getStringArray(R.array.subtopic_names_1)
         var q_arr = r.getStringArray(R.array.questions_1)
         var a_arr = r.getStringArray(R.array.answers_1)
 
         for(i in 0..11) {
-            questions.add(Question(q_arr[i], a_arr[i]))
+            //questions.add(Question(q_arr[i], a_arr[i]))
         }
 
         var title:String = subtitle_arr[0]

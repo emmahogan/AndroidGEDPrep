@@ -1,4 +1,4 @@
-package com.emmahogan.gedcourse
+package com.emmahogan.gedcourse.instruction
 
 import android.app.Dialog
 import android.content.Intent
@@ -10,7 +10,9 @@ import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import android.widget.VideoView
-import androidx.core.view.isVisible
+import com.emmahogan.gedcourse.R
+import com.emmahogan.gedcourse.instruction.Lesson
+import com.emmahogan.gedcourse.quiz.QuizActivity
 
 class LessonView : AppCompatActivity() {
 
@@ -37,7 +39,11 @@ class LessonView : AppCompatActivity() {
         var lesson_num = prefs.getInt(KEY_CURR_LESSON, 1)
 
         // Set current lesson
-        lesson = Lesson(applicationContext,unit_num,lesson_num)
+        lesson = Lesson(
+            applicationContext,
+            unit_num,
+            lesson_num
+        )
 
         // Call external method to initialize all lesson text in textviews
         initLessonText()

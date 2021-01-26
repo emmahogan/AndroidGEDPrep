@@ -1,12 +1,11 @@
-package com.emmahogan.gedcourse
+package com.emmahogan.gedcourse.articles
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.AdapterView
-import android.widget.ImageView
 import android.widget.ListView
-import android.widget.TextView
+import com.emmahogan.gedcourse.R
 
 class list_articles : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,7 +18,9 @@ class list_articles : AppCompatActivity() {
     fun displayArticles() {
 
         val articles = ArrayList<Article>()
-        articles.add(Article("10 GED Math Test Tips", R.drawable.study1, "10 Tips for the GED Math Test from bestgedclasses.org", "1. Read all the data carefully before solving a problem\n" +
+        articles.add(
+            Article("10 GED Math Test Tips",
+                R.drawable.study1, "10 Tips for the GED Math Test from bestgedclasses.org", "1. Read all the data carefully before solving a problem\n" +
                 "\n" +
                 "On the GED Math test, there’s quite some emphasis on Data Analysis topics. You may come across questions that have tables, charts, or graphs.\n" +
                 "\n" +
@@ -85,9 +86,12 @@ class list_articles : AppCompatActivity() {
                 "\n" +
                 "When you’ve read a question carefully twice, go to the answers options and read these also carefully twice. Then, when possible, choose your best answer option.\n" +
                 "\n" +
-                "If, in the end, you’ll have some time left to review your answers, don’t change your answers unless you’ll come across some obvious error that you’re absolutely sure about. Keep in mind that usually, your first answer is the right answer!"))
+                "If, in the end, you’ll have some time left to review your answers, don’t change your answers unless you’ll come across some obvious error that you’re absolutely sure about. Keep in mind that usually, your first answer is the right answer!")
+        )
 
-        articles.add(Article("Format of the GED Math Test", R.drawable.study2, "Information about the format of the GED Math test found on bestgedclasses.org.", "On the GED Math test, you will find various question types:\n" +
+        articles.add(
+            Article("Format of the GED Math Test",
+                R.drawable.study2, "Information about the format of the GED Math test found on bestgedclasses.org.", "On the GED Math test, you will find various question types:\n" +
                 "\n" +
                 "Multiple-choice – this is the question type you’ll see most. You’ll have to choose the correct answer or the best answer from 4 or 5 options.\n" +
                 "\n" +
@@ -103,8 +107,11 @@ class list_articles : AppCompatActivity() {
                 "\n" +
                 "On the GED Math subtest, you’ll be handed out a formula sheet that you can use during your test. So there’s no need to memorizes all sorts of complex formulas.\n" +
                 "\n" +
-                "You may not need all those formulas, and you may also not require a formula for all of the questions. So train yourself in knowing what formula is used to solve what problem, and when no formula is needed at all."))
-        articles.add(Article("GED Test Accommodations for Disabilities", R.drawable.study3, "Written by Educator Dennis Pim, accessed from free resources on passged.com", "There’s a reason that you want your high school equivalency (HSE) diploma. You want a better job, and maybe a chance at college. But there’s a problem. You have a disability that makes some things in life a little harder, like taking tests. Don’t let it stop you! You can show what you know on your HSE test.\n" +
+                "You may not need all those formulas, and you may also not require a formula for all of the questions. So train yourself in knowing what formula is used to solve what problem, and when no formula is needed at all.")
+        )
+        articles.add(
+            Article("GED Test Accommodations for Disabilities",
+                R.drawable.study3, "Written by Educator Dennis Pim, accessed from free resources on passged.com", "There’s a reason that you want your high school equivalency (HSE) diploma. You want a better job, and maybe a chance at college. But there’s a problem. You have a disability that makes some things in life a little harder, like taking tests. Don’t let it stop you! You can show what you know on your HSE test.\n" +
                 "\n" +
                 "All official HSE tests offer special test-taking accommodations for disabilities. These are special allowances like extra time, a separate room, or extra breaks.\n" +
                 "\n" +
@@ -190,7 +197,8 @@ class list_articles : AppCompatActivity() {
                 "\n" +
                 "Talk to your doctor if you feel you need accommodations. Discuss what tests you may need to take and whether you need to see a specialist.\n" +
                 "\n" +
-                "Accommodations are important to make sure everyone has an opportunity to earn an HSE diploma. If you need special help, apply! You can earn your credential and open up doors to better jobs and more education."))
+                "Accommodations are important to make sure everyone has an opportunity to earn an HSE diploma. If you need special help, apply! You can earn your credential and open up doors to better jobs and more education.")
+        )
 
         val adapter = ArticleAdapter(this@list_articles, articles)
 

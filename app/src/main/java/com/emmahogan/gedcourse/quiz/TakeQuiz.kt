@@ -1,4 +1,4 @@
-package com.emmahogan.gedcourse
+package com.emmahogan.gedcourse.quiz
 
 import android.content.Intent
 import android.content.SharedPreferences
@@ -7,6 +7,8 @@ import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.*
+import com.emmahogan.gedcourse.instruction.Lesson
+import com.emmahogan.gedcourse.R
 import java.util.*
 
 class TakeQuiz : AppCompatActivity() {
@@ -63,7 +65,11 @@ class TakeQuiz : AppCompatActivity() {
         var lesson_num = prefs.getInt(KEY_CURR_LESSON, 1)
 
         // Set current lesson
-        lesson = Lesson(applicationContext,unit_num,lesson_num)
+        lesson = Lesson(
+            applicationContext,
+            unit_num,
+            lesson_num
+        )
 
         question_textview = findViewById(R.id.quiz_question)
         score_textview = findViewById(R.id.quiz_score)

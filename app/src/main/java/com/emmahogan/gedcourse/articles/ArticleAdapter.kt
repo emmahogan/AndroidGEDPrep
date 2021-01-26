@@ -1,4 +1,4 @@
-package com.emmahogan.gedcourse
+package com.emmahogan.gedcourse.articles
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.appcompat.view.menu.MenuView
+import com.emmahogan.gedcourse.R
 
 class ArticleAdapter (context:Context, articles:ArrayList<Article>) : ArrayAdapter<Article>(context, 0, articles) {
 

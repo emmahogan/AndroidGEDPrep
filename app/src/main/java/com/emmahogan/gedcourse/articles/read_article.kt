@@ -1,9 +1,10 @@
-package com.emmahogan.gedcourse
+package com.emmahogan.gedcourse.articles
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
+import com.emmahogan.gedcourse.R
 
 class read_article : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

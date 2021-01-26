@@ -1,4 +1,4 @@
-package com.emmahogan.gedcourse;
+package com.emmahogan.gedcourse.quiz;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -6,7 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.emmahogan.gedcourse.QuizContract.*;
+import com.emmahogan.gedcourse.quiz.QuizContract.*;
 
 import androidx.annotation.Nullable;
 

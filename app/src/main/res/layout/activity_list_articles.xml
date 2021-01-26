@@ -9,6 +9,6 @@
     android:background="@color/white"
     android:divider="@android:color/transparent"
     android:dividerHeight="15dp"
-    tools:context=".list_articles">
+    tools:context=".articles.list_articles">
 
 </ListView>

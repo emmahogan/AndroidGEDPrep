@@ -1,4 +1,4 @@
-package com.emmahogan.gedcourse;
+package com.emmahogan.gedcourse.quiz;
 
 public class MultipleChoiceQuestion{
 

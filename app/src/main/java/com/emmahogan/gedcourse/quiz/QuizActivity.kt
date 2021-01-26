@@ -1,12 +1,13 @@
-package com.emmahogan.gedcourse
+package com.emmahogan.gedcourse.quiz
 
-import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import com.emmahogan.gedcourse.instruction.Lesson
+import com.emmahogan.gedcourse.R
 
 class QuizActivity : AppCompatActivity() {
 
@@ -32,7 +33,11 @@ class QuizActivity : AppCompatActivity() {
         var lesson_num = prefs.getInt(KEY_CURR_LESSON, 1)
 
         // Set current lesson
-        lesson = Lesson(applicationContext,unit_num,lesson_num)
+        lesson = Lesson(
+            applicationContext,
+            unit_num,
+            lesson_num
+        )
 
         // var questions_arr = resources.getStringArray(resources.getIdentifier("questions_" + unit_num, "array", packageName))
         // var answers_arr = resources.getStringArray(resources.getIdentifier("answers_" + unit_num, "array", packageName))
