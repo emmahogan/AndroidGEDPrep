@@ -20,7 +20,7 @@ class ExpandableListAdapter(var context: Context, var units : MutableList<String
         return units[groupPosition]
     }
 
-    override fun getChild(groupPosition: Int, childPosition: Int): Any {
+    override fun getChild(groupPosition: Int, childPosition: Int): String {
         return lessons[groupPosition][childPosition]
     }
 
@@ -65,7 +65,7 @@ class ExpandableListAdapter(var context: Context, var units : MutableList<String
         }
 
         val lesson_header = convertView?.findViewById<TextView>(R.id.lesson_header)
-        lesson_header?.text = getGroup(groupPosition)
+        lesson_header?.text = getChild(groupPosition,childPosition)
         return convertView!!
     }
 

@@ -2,7 +2,9 @@ package com.emmahogan.gedcourse
 
 import android.content.res.Resources
 import android.os.Bundle
+import android.widget.ExpandableListView
 import androidx.appcompat.app.AppCompatActivity
+import kotlin.math.exp
 
 class SyllabusActivity : AppCompatActivity() {
 
@@ -12,6 +14,11 @@ class SyllabusActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_syllabus)
+
+        initLessonData()
+
+        var expandableListView = findViewById<ExpandableListView>(R.id.exp_listview)
+        expandableListView.setAdapter(ExpandableListAdapter(this, units_list,lessons_list))
     }
 
     private fun initLessonData() {
@@ -26,14 +33,14 @@ class SyllabusActivity : AppCompatActivity() {
         ).toMutableList()
 
         // For each unit, populate each mutable list in the lessons list with its subtopic names from resources
-        for(index in 0..units_list.size) {
-            lessons_list[index] = resources.getStringArray(
+        for(index in 1..units_list.size) {
+            lessons_list.add(resources.getStringArray(
                 resources.getIdentifier(
                     "subtopic_names_$index",
                     "array",
                     applicationContext.packageName
                 )
-            ).toMutableList()
+            ).toMutableList())
         }
     }
 }
