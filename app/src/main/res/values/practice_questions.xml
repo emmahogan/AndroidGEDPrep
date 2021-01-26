@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    UNIT 1 PRACTICE QUESTIONS-->
+
+    <string-array name="practice_questions_1_1">
+        <item>Which of the following is a Whole Number?</item>
+        <item>Which of the following is a Whole Number?</item>
+        <item>Which of the following is a Whole Number?</item>
+        <item>Which of the following is a Whole Number?</item>
+        <item>Which of the following is a Whole Number?</item>
+        <item>Which of the following IS NOT a Whole Number?</item>
+        <item>Which of the following IS NOT a Whole Number?</item>
+    </string-array>
+    <string-array name="opt_1_1_1">
+        <item>2</item>
+        <item>-6</item>
+        <item>394</item>
+        <item>-3</item>
+        <item>-10.5</item>
+        <item>103</item>
+        <item>8.05</item>
+    </string-array>
+    <string-array name="opt_2_1_1">
+        <item>7.5</item>
+        <item>3,234</item>
+        <item>39.2</item>
+        <item>287 1/2</item>
+        <item>300,029</item>
+        <item>0</item>
+        <item>4,001</item>
+    </string-array>
+    <string-array name="opt_3_1_1">
+        <item>37 1/2</item>
+        <item>91.4</item>
+        <item>-2</item>
+        <item>0</item>
+        <item>4/7</item>
+        <item>10.1</item>
+        <item>9,012,000</item>
+    </string-array>
+    <integer-array name="answer_pos_1_1">
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+    </integer-array>
+
+
+
+    <string-array name="practice_questions_1_2">
+        <item>In the number 89,102 the 8 has the value: </item>
+        <item>In the number 294,540,129 the 5 has the value: </item>
+        <item>In the number 7,932 the 9 has the value: </item>
+        <item>In the number 28,491,452,391 the 8 has the value: </item>
+        <item>In the number 792,125 the 7 has the value: </item>
+        <item>In the number 1,296 the 2 has the value: </item>
+        <item>In the number 24,112 the 4 has the value: </item>
+    </string-array>
+    <string-array name="opt_1_1_2">
+        <item>Eight million</item>
+        <item>Five hundred million</item>
+        <item>Nine tens, or ninety</item>
+        <item>Eight billion</item>
+        <item>Seven thousand</item>
+        <item>Two tens, or twenty</item>
+        <item>Four thousand</item>
+    </string-array>
+    <string-array name="opt_2_1_2">
+        <item>Eight hundred thousand</item>
+        <item>Five hundred thousand</item>
+        <item>Nine hundred</item>
+        <item>Eight million</item>
+        <item>Seven hundred thousand</item>
+        <item>Two thousand</item>
+        <item>Four million</item>
+    </string-array>
+    <string-array name="opt_3_1_2">
+        <item>Eight ten thousands, or Eighty thousand</item>
+        <item>Five million</item>
+        <item>Nine thousand</item>
+        <item>Eight trillion</item>
+        <item>Seven ten thousands, or Seventy thousand</item>
+        <item>Two hundred</item>
+        <item>Four hundred</item>
+    </string-array>
+    <integer-array name="answer_pos_1_2">
+        <item>3</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+    </integer-array>
+
+</resources>
