@@ -3,7 +3,7 @@
 
 <!--  CHAPTER NAMES  -->
 
-    <string-array name="chapter_names">
+    <string-array name="unit_titles">
         <item>Whole Numbers</item>
         <item>Word Problems</item>
         <item>Decimals</item>
