@@ -5,6 +5,7 @@ import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 import com.emmahogan.gedcourse.MainActivity
 import com.emmahogan.gedcourse.instruction.CourseComplete
 import com.emmahogan.gedcourse.instruction.Lesson
@@ -60,6 +61,9 @@ class FinishQuiz : AppCompatActivity() {
 
         // Divide numCorrect by total and multiply by 100 to get score
         val score:Int = (numCorrect * 100)/total
+
+        var score_textview = findViewById<TextView>(R.id.quiz_score_textview)
+        score_textview.text = score.toString() + "%"
 
         // Call external method to save high score in shared preferences
         saveHighScore(score);
