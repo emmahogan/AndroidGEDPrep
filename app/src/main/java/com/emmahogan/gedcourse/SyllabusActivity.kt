@@ -18,18 +18,20 @@ class SyllabusActivity : AppCompatActivity() {
 
     // Used to access shared preferences for highscore
     val SHARED_PREFS: String = "sharedPrefs"
-    val prefs: SharedPreferences = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE)
 
     // Keys saved in shared prefs
     val KEY_CURR_UNIT: String = "KEY_CURR_UNIT"
     val KEY_CURR_LESSON: String = "KEY_CURR_LESSON"
 
-    // Used to edit shared prefs
-    val editor: SharedPreferences.Editor = prefs.edit()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_syllabus)
+
+        val prefs: SharedPreferences = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE)
+
+        // Used to edit shared prefs
+        val editor: SharedPreferences.Editor = prefs.edit()
 
         initLessonData()
 

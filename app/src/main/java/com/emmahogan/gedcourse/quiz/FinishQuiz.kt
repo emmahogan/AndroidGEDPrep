@@ -17,19 +17,24 @@ class FinishQuiz : AppCompatActivity() {
 
     // Used to access shared preferences for highscore
     val SHARED_PREFS: String = "sharedPrefs"
-    val prefs: SharedPreferences = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE)
+    lateinit var prefs: SharedPreferences
+    lateinit var editor: SharedPreferences.Editor
 
     // Keys saved in shared prefs
     val KEY_CURR_UNIT: String = "KEY_CURR_UNIT"
     val KEY_CURR_LESSON: String = "KEY_CURR_LESSON"
     lateinit var KEY_HIGHSCORE: String
 
-    // Used to edit shared prefs
-    val editor: SharedPreferences.Editor = prefs.edit()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_finish_quiz)
+
+        // Instantiate SharedPreferences object
+        prefs = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE)
+
+        // Used to edit shared prefs
+        editor = prefs.edit()
 
         // Get current unit and lesson numbers from shared preferences, or default 1.1
         var unit_num = prefs.getInt(KEY_CURR_UNIT, 1)

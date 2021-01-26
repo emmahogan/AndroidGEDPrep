@@ -18,7 +18,7 @@ class TakeQuiz : AppCompatActivity() {
 
     // Used to access shared preferences for highscore
     val SHARED_PREFS: String = "sharedPrefs"
-    val prefs: SharedPreferences = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE)
+    lateinit var prefs: SharedPreferences
 
     // Keys for current unit and lesson numbers saved in shared prefs
     val KEY_CURR_UNIT: String = "KEY_CURR_UNIT"
@@ -59,6 +59,8 @@ class TakeQuiz : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_take_quiz)
+
+        prefs = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE)
 
         // Get current unit and lesson numbers from shared preferences, or default 1.1
         var unit_num = prefs.getInt(KEY_CURR_UNIT, 1)
