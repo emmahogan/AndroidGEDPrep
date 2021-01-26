@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">GED Course</string>
+    <string name="final_score">Final Score: </string>
+    <string name="grade">%d%</string>
     <string name="congrats_msg">Congratulations!</string>
     <string name="course_complete_msg">You have completed the last section of GED Mathematics study material currently available. Click the button below to return to the home page!</string>
 </resources>
