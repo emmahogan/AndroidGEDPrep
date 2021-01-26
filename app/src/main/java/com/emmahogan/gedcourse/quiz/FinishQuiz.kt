@@ -5,6 +5,7 @@ import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.emmahogan.gedcourse.MainActivity
 import com.emmahogan.gedcourse.instruction.CourseComplete
 import com.emmahogan.gedcourse.instruction.Lesson
 import com.emmahogan.gedcourse.instruction.LessonView
@@ -13,7 +14,13 @@ import com.emmahogan.gedcourse.R
 class FinishQuiz : AppCompatActivity() {
 
     lateinit var lesson: Lesson
+    var unit_num: Int = 1
+    var lesson_num: Int = 1
+
     lateinit var next_btn: Button
+    lateinit var try_again_btn: Button
+    lateinit var review_lesson_btn: Button
+    lateinit var home_btn: Button
 
     // Used to access shared preferences for highscore
     val SHARED_PREFS: String = "sharedPrefs"
@@ -37,8 +44,8 @@ class FinishQuiz : AppCompatActivity() {
         editor = prefs.edit()
 
         // Get current unit and lesson numbers from shared preferences, or default 1.1
-        var unit_num = prefs.getInt(KEY_CURR_UNIT, 1)
-        var lesson_num = prefs.getInt(KEY_CURR_LESSON, 1)
+        unit_num = prefs.getInt(KEY_CURR_UNIT, 1)
+        lesson_num = prefs.getInt(KEY_CURR_LESSON, 1)
 
         // Set current lesson
         lesson = Lesson(
@@ -58,37 +65,83 @@ class FinishQuiz : AppCompatActivity() {
         saveHighScore(score);
 
         next_btn = findViewById(R.id.finish_quiz_next_lesson_btn)
+        try_again_btn = findViewById(R.id.finish_quiz_try_again_btn)
+        review_lesson_btn = findViewById(R.id.finish_quiz_review_btn)
+        home_btn = findViewById(R.id.finish_quiz_home_btn)
 
-        next_btn.setOnClickListener {
-            // Check if last lesson of last unit, if so go back to home
-            if (unit_num == 11 && lesson_num == 7) {
-                startActivity(Intent(this@FinishQuiz, CourseComplete::class.java))
-            } else {
+        initNavBtns()
 
-                // Check if last lesson in unit
-                if (lesson_num == lesson.num_lessons_in_unit) {
 
-                    // Increment unit and set lesson number to one
-                    unit_num++
-                    lesson_num = 1
-
-                } else {
-
-                    // Just increment lesson number
-                    lesson_num++
-                }
-
-                // Save new current lesson in shared preferences
-                editor.putInt(KEY_CURR_LESSON, lesson_num)
-                editor.putInt(KEY_CURR_UNIT, unit_num)
-                editor.apply()
-
-                // Go to next lesson
-                startActivity(Intent(this@FinishQuiz, LessonView::class.java))
-            }
         }
 
 
+
+
+    private fun initNavBtns() {
+        next_btn.setOnClickListener {
+            nextLesson()
+        }
+        try_again_btn.setOnClickListener {
+            tryAgain()
+        }
+        review_lesson_btn.setOnClickListener {
+            reviewCurrLesson()
+        }
+        home_btn.setOnClickListener {
+            home()
+        }
+    }
+
+    private fun home() {
+        // Call external method to increment current lesson in Shared Prefs
+        incLesson()
+        // Go to home page
+        startActivity(Intent(this@FinishQuiz, MainActivity::class.java))
+    }
+
+    /* Method to review content of current lesson when btn is clicked */
+    private fun reviewCurrLesson() {
+        startActivity(Intent(this@FinishQuiz, LessonView::class.java))
+    }
+
+    /* Method to start quiz for this lesson again when try again btn is clicked */
+    private fun tryAgain() {
+        startActivity(Intent(this@FinishQuiz, QuizActivity::class.java))
+    }
+
+    /* Method to start next lesson when next lesson btn is clicked */
+    private fun nextLesson() {
+        // Call external method to increment current lesson in Shared Prefs
+        incLesson()
+        // Go to next lesson
+        startActivity(Intent(this@FinishQuiz, LessonView::class.java))
+    }
+
+    /* Method to increment current lesson and save as new current lesson in Shared Prefs */
+    private fun incLesson() {
+        // Check if last lesson of last unit, if so go back to home
+        if (unit_num == 11 && lesson_num == 7) {
+            startActivity(Intent(this@FinishQuiz, CourseComplete::class.java))
+        } else {
+
+            // Check if last lesson in unit
+            if (lesson_num == lesson.num_lessons_in_unit) {
+
+                // Increment unit and set lesson number to one
+                unit_num++
+                lesson_num = 1
+
+            } else {
+                // Just increment lesson number
+                lesson_num++
+            }
+
+            // Save new current lesson in shared preferences
+            editor.putInt(KEY_CURR_LESSON, lesson_num)
+            editor.putInt(KEY_CURR_UNIT, unit_num)
+            editor.apply()
+
+        }
     }
 
     private fun saveHighScore(currScore: Int) {
