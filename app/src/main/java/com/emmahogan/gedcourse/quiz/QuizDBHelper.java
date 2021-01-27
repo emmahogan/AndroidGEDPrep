@@ -54,20 +54,18 @@ public class QuizDBHelper extends SQLiteOpenHelper {
     }
 
     private void populateQuestionsTable() {
-        /*
-        MultipleChoiceQuestion tq1 = new MultipleChoiceQuestion("A is correct", "A", "B", "C", 1);
-        addQuestion(tq1);
-        MultipleChoiceQuestion tq2 = new MultipleChoiceQuestion("B is correct", "A", "B", "C", 2);
-        addQuestion(tq2);
-        MultipleChoiceQuestion tq3 = new MultipleChoiceQuestion("C is correct", "A", "B", "C", 3);
-        addQuestion(tq3);
-        */
-        //String[] title_arr = r.getStringArray(r.getIdentifier("subtopic_names_" + unit_num, "array", context.getPackageName()));
         Resources r = context.getResources();
 
-        for(int unit = 1; unit <= 1; unit++){
-            for(int lesson = 1; lesson <=2; lesson++) {
+        // Get array of all unit lengths from resources
+        int[] num_lessons = r.getIntArray(r.getIdentifier("num_lessons_per_unit", "array", context.getPackageName()));
 
+        // For every lesson from every unit, add every practice question to the db
+        for(int unit = 1; unit <= num_lessons.length; unit++){
+            for(int lesson = 1; lesson <= num_lessons[unit]; lesson++) {
+                for (MultipleChoiceQuestion q: new Lesson(context, unit, lesson).getPractice_questions()
+                     ) {
+                    addQuestion(q);
+                }
             }
         }
     }

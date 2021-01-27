@@ -101,9 +101,7 @@ public class Lesson {
 
         this.num_lessons_in_unit = title_arr.length;
 
-        if(this.unit_num == 1 && this.lesson_num < 3) {
-            populatePracQuestionsArr();
-        }
+        populatePracQuestionsArr();
     }
 
     /* Method to fill practice_questions array with data from resources file*/
