@@ -1,16 +1,15 @@
-package com.emmahogan.gedcourse
+package com.emmahogan.gedcourse.syllabus
 
 import android.content.Intent
 import android.content.SharedPreferences
-import android.content.res.Resources
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.ExpandableListView
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.emmahogan.gedcourse.MainActivity
+import com.emmahogan.gedcourse.R
 import com.emmahogan.gedcourse.instruction.LessonView
-import kotlin.math.exp
 
 class SyllabusActivity : AppCompatActivity() {
 

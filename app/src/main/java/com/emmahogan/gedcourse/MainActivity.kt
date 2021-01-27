@@ -8,6 +8,7 @@ import android.widget.Button
 import com.emmahogan.gedcourse.articles.list_articles
 import com.emmahogan.gedcourse.instruction.LessonView
 import com.emmahogan.gedcourse.quiz.TakeQuiz
+import com.emmahogan.gedcourse.syllabus.SyllabusActivity
 
 class MainActivity : AppCompatActivity() {
 

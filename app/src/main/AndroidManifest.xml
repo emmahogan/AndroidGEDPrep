@@ -10,13 +10,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GEDCourse">
-        <activity android:name=".SyllabusActivity"></activity>
+        <activity android:name=".syllabus.SyllabusActivity"></activity>
         <activity android:name=".instruction.CourseComplete" />
         <activity android:name=".quiz.FinishQuiz" />
         <activity android:name=".quiz.TakeQuiz" />
         <activity android:name=".quiz.QuizActivity" />
         <activity android:name=".instruction.LessonView" />
-        <activity android:name=".Instruction" />
         <activity android:name=".articles.read_article" />
         <activity android:name=".articles.list_articles" />
         <activity android:name=".MainActivity">
