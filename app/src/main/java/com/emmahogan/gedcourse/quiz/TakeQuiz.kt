@@ -87,7 +87,11 @@ class TakeQuiz : AppCompatActivity() {
 
         // Initialize database helper and put questions in question list var
         dbHelper = QuizDBHelper(applicationContext)
-        questionsList = dbHelper.questions
+        if(unit_num == 1 && lesson_num < 3) {
+            questionsList = lesson.getRandomQuestions(3).toList();
+        } else {
+            questionsList = dbHelper.questions
+        }
 
         // Get the total number of questions
         questionTotal = questionsList.size

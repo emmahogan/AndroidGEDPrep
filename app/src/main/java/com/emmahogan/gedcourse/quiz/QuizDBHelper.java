@@ -2,10 +2,12 @@ package com.emmahogan.gedcourse.quiz;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.content.res.Resources;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import com.emmahogan.gedcourse.instruction.Lesson;
 import com.emmahogan.gedcourse.quiz.QuizContract.*;
 
 import androidx.annotation.Nullable;
@@ -24,8 +26,11 @@ public class QuizDBHelper extends SQLiteOpenHelper {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
+    Context context;
+
     @Override
     public void onCreate(SQLiteDatabase db) {
+        this.context = context;
         this.db = db;
 
         final String SQL_CREATE_QUESTIONS_TABLE = "CREATE TABLE " +
@@ -49,12 +54,22 @@ public class QuizDBHelper extends SQLiteOpenHelper {
     }
 
     private void populateQuestionsTable() {
+        /*
         MultipleChoiceQuestion tq1 = new MultipleChoiceQuestion("A is correct", "A", "B", "C", 1);
         addQuestion(tq1);
         MultipleChoiceQuestion tq2 = new MultipleChoiceQuestion("B is correct", "A", "B", "C", 2);
         addQuestion(tq2);
         MultipleChoiceQuestion tq3 = new MultipleChoiceQuestion("C is correct", "A", "B", "C", 3);
         addQuestion(tq3);
+        */
+        //String[] title_arr = r.getStringArray(r.getIdentifier("subtopic_names_" + unit_num, "array", context.getPackageName()));
+        Resources r = context.getResources();
+
+        for(int unit = 1; unit <= 1; unit++){
+            for(int lesson = 1; lesson <=2; lesson++) {
+
+            }
+        }
     }
 
     private void addQuestion(MultipleChoiceQuestion question) {
@@ -67,6 +82,9 @@ public class QuizDBHelper extends SQLiteOpenHelper {
         db.insert(QuestionsTable.TABLE_NAME, null, cv);
     }
 
+    /* Method to return list of questions from DB query for a specified lesson, or gets all questions
+    if the input unit_num is 0
+     */
     public List<MultipleChoiceQuestion> getQuestions() {
         List<MultipleChoiceQuestion> questionList = new ArrayList<>();
         db = getReadableDatabase();

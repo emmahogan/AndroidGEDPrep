@@ -34,6 +34,7 @@ public class Lesson {
 
     // Context
     Context context;
+    Resources r;
 
     /* Constructor for a Lesson object */
 
@@ -42,6 +43,7 @@ public class Lesson {
         this.unit_num = unit;
         this.lesson_num = lesson_num;
         this.context = context;
+        r = context.getResources();
 
         populate();
 
@@ -52,7 +54,6 @@ public class Lesson {
     /* Get random questions (number specified) from the arraylist of practice questions
     associated with this lesson, returned as an ArrayList of questions.
      */
-
     public MultipleChoiceQuestion[] getRandomQuestions(int num_questions) {
 
         int totalQuestions = practice_questions.size();
@@ -81,10 +82,13 @@ public class Lesson {
         return return_questions;
     }
 
+    /* Returns list of all questions in the lessons practice questions, to be used in injecting into DB */
+    public ArrayList<MultipleChoiceQuestion> getPractice_questions() {
+        return practice_questions;
+    }
+
     /* Populates the lessons with strings from resources */
     public void populate() {
-        Resources r = context.getResources();
-
         String[] title_arr = r.getStringArray(r.getIdentifier("subtopic_names_" + unit_num, "array", context.getPackageName()));
         String[] content_arr = r.getStringArray(r.getIdentifier("subtopic_content_" + unit_num, "array", context.getPackageName()));
         String[] example_arr = r.getStringArray(r.getIdentifier("examples_" + unit_num, "array", context.getPackageName()));
@@ -96,5 +100,24 @@ public class Lesson {
         this.citation = citations_arr[this.lesson_num - 1];
 
         this.num_lessons_in_unit = title_arr.length;
+
+        if(this.unit_num == 1 && this.lesson_num < 3) {
+            populatePracQuestionsArr();
+        }
+    }
+
+    /* Method to fill practice_questions array with data from resources file*/
+    private void populatePracQuestionsArr(){
+        // Get arrays of questions, all 3 options, and answer positions
+        String[] q_arr = r.getStringArray(r.getIdentifier("practice_questions_" + this.unit_num + "_" + this.lesson_num, "array", context.getPackageName()));
+        String[] op1_arr = r.getStringArray(r.getIdentifier("opt_1_" + this.unit_num + "_" + this.lesson_num, "array", context.getPackageName()));
+        String[] op2_arr = r.getStringArray(r.getIdentifier("opt_2_" + this.unit_num + "_" + this.lesson_num, "array", context.getPackageName()));
+        String[] op3_arr = r.getStringArray(r.getIdentifier("opt_3_" + this.unit_num + "_" + this.lesson_num, "array", context.getPackageName()));
+        int[] anspos_arr = r.getIntArray(r.getIdentifier("answer_pos_" + this.unit_num + "_" + this.lesson_num, "array", context.getPackageName()));
+
+        // For each question, create a new MultipleChoiceQuestion object and push to arraylist
+        for(int index = 0; index < q_arr.length; index++) {
+            practice_questions.add(new MultipleChoiceQuestion(q_arr[index], op1_arr[index], op2_arr[index], op3_arr[index], anspos_arr[index]));
+        }
     }
 }
