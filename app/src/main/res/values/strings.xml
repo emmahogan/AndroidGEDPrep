@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GED Course</string>
+    <string name="app_name">GED Study</string>
     <string name="final_score">Final Score: </string>
     <string name="grade">%d%</string>
     <string name="congrats_msg">Congratulations!</string>
