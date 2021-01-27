@@ -61,7 +61,9 @@ class QuizActivity : AppCompatActivity() {
         // Start quiz activity when start button is clicked
         val start_quiz_btn:Button = findViewById(R.id.start_quiz_btn)
         start_quiz_btn.setOnClickListener {
-            startActivity(Intent(this@QuizActivity, TakeQuiz::class.java))
+            var intent = Intent(this@QuizActivity, TakeQuiz::class.java)
+            intent.putExtra("practice_mode", false)
+            startActivity(intent)
         }
     }
 

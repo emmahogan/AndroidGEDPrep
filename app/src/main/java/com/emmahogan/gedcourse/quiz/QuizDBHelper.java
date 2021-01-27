@@ -1,5 +1,6 @@
 package com.emmahogan.gedcourse.quiz;
 
+import android.app.Application;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.res.Resources;
@@ -7,6 +8,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import com.emmahogan.gedcourse.MyApplication;
 import com.emmahogan.gedcourse.instruction.Lesson;
 import com.emmahogan.gedcourse.quiz.QuizContract.*;
 
@@ -30,7 +32,7 @@ public class QuizDBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        this.context = context;
+        this.context = MyApplication.getAppContext();
         this.db = db;
 
         final String SQL_CREATE_QUESTIONS_TABLE = "CREATE TABLE " +
@@ -54,14 +56,17 @@ public class QuizDBHelper extends SQLiteOpenHelper {
     }
 
     private void populateQuestionsTable() {
+
         Resources r = context.getResources();
 
         // Get array of all unit lengths from resources
         int[] num_lessons = r.getIntArray(r.getIdentifier("num_lessons_per_unit", "array", context.getPackageName()));
 
+
+
         // For every lesson from every unit, add every practice question to the db
         for(int unit = 1; unit <= num_lessons.length; unit++){
-            for(int lesson = 1; lesson <= num_lessons[unit]; lesson++) {
+            for(int lesson = 1; lesson <= num_lessons[unit-1]; lesson++) {
                 for (MultipleChoiceQuestion q: new Lesson(context, unit, lesson).getPractice_questions()
                      ) {
                     addQuestion(q);

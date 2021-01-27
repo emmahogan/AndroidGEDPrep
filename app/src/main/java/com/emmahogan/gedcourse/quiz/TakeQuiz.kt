@@ -87,10 +87,17 @@ class TakeQuiz : AppCompatActivity() {
 
         // Initialize database helper and put questions in question list var
         dbHelper = QuizDBHelper(applicationContext)
-        if(unit_num == 1 && lesson_num < 3) {
-            questionsList = lesson.getRandomQuestions(3).toList();
-        } else {
+
+        // If practice mode is on, set questionslist to all questions from db
+        if(intent.getBooleanExtra("practice_mode", false)){
             questionsList = dbHelper.questions
+        } else {
+            // If practice questions exist for lesson, make question list. Else set it to 1.1 questions
+            if (lesson.practice_questions.size > 0) {
+                questionsList = lesson.getRandomQuestions(3).toList();
+            } else {
+                questionsList = Lesson(applicationContext, 1, 1).getRandomQuestions(3).toList();
+            }
         }
 
         // Get the total number of questions

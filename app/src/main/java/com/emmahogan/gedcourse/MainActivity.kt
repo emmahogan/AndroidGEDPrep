@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.widget.Button
 import com.emmahogan.gedcourse.articles.list_articles
 import com.emmahogan.gedcourse.instruction.LessonView
+import com.emmahogan.gedcourse.quiz.TakeQuiz
 
 class MainActivity : AppCompatActivity() {
 
@@ -21,6 +22,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var resources_button:Button
     lateinit var next_lesson_btn:Button
     lateinit var syllabus_btn:Button
+    lateinit var practice_btn:Button
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -36,6 +38,7 @@ class MainActivity : AppCompatActivity() {
         resources_button = findViewById(R.id.resources_btn)
         next_lesson_btn = findViewById(R.id.next_lesson_btn)
         syllabus_btn = findViewById(R.id.syllabus_btn)
+        practice_btn = findViewById(R.id.practice_btn)
 
         // Include current lesson on Next Lesson Button label
         var nextLessonString: String = "Next Lesson: Section $unit_num.$lesson_num"
@@ -52,6 +55,12 @@ class MainActivity : AppCompatActivity() {
 
         syllabus_btn.setOnClickListener {
             startActivity(Intent(this@MainActivity, SyllabusActivity::class.java))
+        }
+
+        practice_btn.setOnClickListener {
+            var intent = Intent(this@MainActivity, TakeQuiz::class.java)
+            intent.putExtra("practice_mode", true)
+            startActivity(intent)
         }
     }
 }
