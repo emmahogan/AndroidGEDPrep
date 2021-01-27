@@ -110,6 +110,9 @@ class LessonView : AppCompatActivity() {
         val pauseBtn = alert.findViewById<Button>(R.id.pause_btn)
         val cancelBtn = alert.findViewById<Button>(R.id.cancel_btn)
 
+        // Set video to be on top so it does not get dimmed
+        videoPlayer.setZOrderOnTop(true)
+
         if(buttonClicked.id == R.id.watch_anim_btn) {
             videoPlayer.setVideoURI(vid_uri)
             alert.show()
