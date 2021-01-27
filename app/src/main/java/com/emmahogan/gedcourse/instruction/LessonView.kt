@@ -6,10 +6,13 @@ import android.content.SharedPreferences
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import android.widget.VideoView
+import com.emmahogan.gedcourse.MainActivity
 import com.emmahogan.gedcourse.R
 import com.emmahogan.gedcourse.instruction.Lesson
 import com.emmahogan.gedcourse.quiz.QuizActivity
@@ -29,7 +32,6 @@ class LessonView : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lesson_view)
-        setSupportActionBar(findViewById(R.id.my_toolbar))
 
         // Initialize shared preferences
         var prefs: SharedPreferences = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE)
@@ -58,6 +60,8 @@ class LessonView : AppCompatActivity() {
             startActivity(Intent(this@LessonView, QuizActivity::class.java))
         }
     }
+
+
 
     /* Method to initialize all lesson text in textviews */
 
@@ -122,6 +126,22 @@ class LessonView : AppCompatActivity() {
         cancelBtn.setOnClickListener {
             alert.dismiss()
         }
+    }
+
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.home_nav, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId) {
+            R.id.menu_home -> {
+                startActivity(Intent(this@LessonView, MainActivity::class.java))
+                return true
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 
 

@@ -3,6 +3,8 @@ package com.emmahogan.gedcourse.instruction
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Button
 import com.emmahogan.gedcourse.MainActivity
 import com.emmahogan.gedcourse.R
@@ -17,5 +19,17 @@ class CourseComplete : AppCompatActivity() {
         return_home_btn.setOnClickListener {
             startActivity(Intent(this@CourseComplete, MainActivity::class.java))
         }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.home_nav, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId) {
+            R.id.menu_home -> { startActivity(Intent(this@CourseComplete, MainActivity::class.java))}
+        }
+        return super.onOptionsItemSelected(item)
     }
 }

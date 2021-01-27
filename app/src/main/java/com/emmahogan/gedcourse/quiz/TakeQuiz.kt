@@ -6,7 +6,10 @@ import android.content.res.ColorStateList
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.*
+import com.emmahogan.gedcourse.MainActivity
 import com.emmahogan.gedcourse.instruction.Lesson
 import com.emmahogan.gedcourse.R
 import java.util.*
@@ -224,5 +227,20 @@ class TakeQuiz : AppCompatActivity() {
         intent.putExtra("total", questionTotal)
 
         startActivity(intent)
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.home_nav, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId) {
+            R.id.menu_home -> {
+                startActivity(Intent(this@TakeQuiz, MainActivity::class.java))
+                return true
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 }

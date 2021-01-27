@@ -4,8 +4,11 @@ import android.content.Intent
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Button
 import android.widget.TextView
+import com.emmahogan.gedcourse.MainActivity
 import com.emmahogan.gedcourse.instruction.Lesson
 import com.emmahogan.gedcourse.R
 
@@ -74,6 +77,22 @@ class QuizActivity : AppCompatActivity() {
         // Return the current high score from shared preferences, or the default value of 0
         return prefs.getInt(KEY_HIGHSCORE, 0)
 
+    }
+
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.home_nav, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId) {
+            R.id.menu_home -> {
+                startActivity(Intent(this@QuizActivity, MainActivity::class.java))
+                return true
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 
 }

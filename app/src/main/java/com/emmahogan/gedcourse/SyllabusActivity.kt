@@ -4,6 +4,8 @@ import android.content.Intent
 import android.content.SharedPreferences
 import android.content.res.Resources
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.ExpandableListView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -78,5 +80,20 @@ class SyllabusActivity : AppCompatActivity() {
                 )
             ).toMutableList())
         }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.home_nav, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId) {
+            R.id.menu_home -> {
+                startActivity(Intent(this@SyllabusActivity, MainActivity::class.java))
+                return true
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 }
