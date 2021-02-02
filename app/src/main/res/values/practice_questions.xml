@@ -154,14 +154,110 @@
     </integer-array>
 
     <string-array name="practice_questions_1_4">
+        <item>65 + 7 = ?</item>
+        <item>492 + 1084 = ?</item>
+        <item>9 + 873 = ?</item>
+        <item>Find the sum of 203 and 149.</item>
+        <item>Find the sum of 816 and 28.</item>
+        <item>78 – 26 = ?</item>
+        <item>9,172 – 293 = ?</item>
+        <item>34 – 8 = ?</item>
+        <item>What is the difference of 56 and 34?</item>
+        <item>Find the difference of 1,239 and 76.</item>
+        <item>8 * 11 = ?</item>
+        <item>6 * 7 = ?</item>
+        <item>3 x 24 = ?</item>
+        <item>18 x 5 = ?</item>
+        <item>Find the product of 45 and 3.</item>
+        <item>What is the product of 4 and 17?</item>
+        <item>27 &#x00F7; 3 = ?</item>
+        <item>54 &#x00F7; 18 = ?</item>
+        <item>240 &#x00F7; 12 = ?</item>
     </string-array>
+
     <string-array name="opt_1_1_4">
+        <item>83</item>
+        <item>1476</item>
+        <item>882</item>
+        <item>352</item>
+        <item>788</item>
+        <item>64</item>
+        <item>8,879</item>
+        <item>28</item>
+        <item>90</item>
+        <item>1,153</item>
+        <item>88</item>
+        <item>51</item>
+        <item>76</item>
+        <item>95</item>
+        <item>135</item>
+        <item>88</item>
+        <item>6</item>
+        <item>3</item>
+        <item>12</item>
     </string-array>
     <string-array name="opt_2_1_4">
+        <item>72</item>
+        <item>1576</item>
+        <item>891</item>
+        <item>452</item>
+        <item>854</item>
+        <item>42</item>
+        <item>8,979</item>
+        <item>26</item>
+        <item>22</item>
+        <item>1,263</item>
+        <item>98</item>
+        <item>46</item>
+        <item>68</item>
+        <item>90</item>
+        <item>110</item>
+        <item>68</item>
+        <item>81</item>
+        <item>36</item>
+        <item>42</item>
     </string-array>
     <string-array name="opt_3_1_4">
+        <item>74</item>
+        <item>1556</item>
+        <item>901</item>
+        <item>54</item>
+        <item>844</item>
+        <item>52</item>
+        <item>8,896</item>
+        <item>25</item>
+        <item>32</item>
+        <item>1,163</item>
+        <item>86</item>
+        <item>42</item>
+        <item>72</item>
+        <item>85</item>
+        <item>129</item>
+        <item>74</item>
+        <item>9</item>
+        <item>5</item>
+        <item>20</item>
     </string-array>
     <integer-array name="answer_pos_1_4">
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>3</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>3</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>3</item>
     </integer-array>
 
     <string-array name="practice_questions_1_5">
