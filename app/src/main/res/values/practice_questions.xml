@@ -98,14 +98,59 @@
     </integer-array>
 
     <string-array name="practice_questions_1_3">
+        <item>The answer to an addition problem is called the ___________.</item>
+        <item>The answer to a subtraction problem is called the ___________.</item>
+        <item>The answer to a multiplication problem is called the ___________.</item>
+        <item>The answer to a division problem is called the ___________.</item>
+        <item>Whole numbers that are greater than 0 are called ______________ numbers.</item>
+        <item>A prime number is only divisible by: </item>
+        <item>Which of the following numbers is a factor of 18?</item>
+        <item>Which of the following is NOT a factor of 16?</item>
+        <item>The next consecutive odd number following 19 is: </item>
     </string-array>
     <string-array name="opt_1_1_3">
+        <item>Sum</item>
+        <item>Quotient</item>
+        <item>Difference</item>
+        <item>Product</item>
+        <item>Even</item>
+        <item>Itself</item>
+        <item>3</item>
+        <item>1</item>
+        <item>21</item>
     </string-array>
     <string-array name="opt_2_1_3">
+        <item>Product</item>
+        <item>Difference</item>
+        <item>Sum</item>
+        <item>Quotient</item>
+        <item>Consecutive</item>
+        <item>1</item>
+        <item>12</item>
+        <item>6</item>
+        <item>29</item>
     </string-array>
     <string-array name="opt_3_1_3">
+        <item>Quotient</item>
+        <item>Product</item>
+        <item>Product</item>
+        <item>Difference</item>
+        <item>Positive</item>
+        <item>Both A and B</item>
+        <item>8</item>
+        <item>4</item>
+        <item>20</item>
     </string-array>
     <integer-array name="answer_pos_1_3">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>2</item>
+        <item>3</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
     </integer-array>
 
     <string-array name="practice_questions_1_4">
