@@ -261,14 +261,54 @@
     </integer-array>
 
     <string-array name="practice_questions_1_5">
+        <item>Round 1,294 to the nearest hundred.</item>
+        <item>Round 1,294 to the nearest thousand.</item>
+        <item>Round 983 to the nearest ten.</item>
+        <item>Round 750 to the nearest hundred.</item>
+        <item>Round 500 to the nearest thousand.</item>
+        <item>Round 6,498,976 to the nearest million.</item>
+        <item>Round 6,498,976 to the nearest hundred-thousand.</item>
+        <item>Round 6,498,976 to the nearest thousand.</item>
     </string-array>
     <string-array name="opt_1_1_5">
+        <item>1,200</item>
+        <item>1,000</item>
+        <item>980</item>
+        <item>700</item>
+        <item>500</item>
+        <item>7,000,000</item>
+        <item>6,400,000</item>
+        <item>6,498,900</item>
     </string-array>
     <string-array name="opt_2_1_5">
+        <item>1,000</item>
+        <item>1,300</item>
+        <item>990</item>
+        <item>800</item>
+        <item>1,000</item>
+        <item>6,500,000</item>
+        <item>6,498,000</item>
+        <item>6,499,000</item>
     </string-array>
     <string-array name="opt_3_1_5">
+        <item>1,300</item>
+        <item>1,200</item>
+        <item>1,000</item>
+        <item>750</item>
+        <item>0</item>
+        <item>6,000,000</item>
+        <item>6,500,000</item>
+        <item>6,498,000</item>
     </string-array>
     <integer-array name="answer_pos_1_5">
+        <item>3</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+        <item>3</item>
+        <item>3</item>
+        <item>2</item>
     </integer-array>
 
     <string-array name="practice_questions_1_6">
