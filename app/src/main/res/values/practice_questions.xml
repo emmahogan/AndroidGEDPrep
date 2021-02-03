@@ -373,14 +373,59 @@
     </integer-array>
 
     <string-array name="practice_questions_1_7">
+        <item>2&#179; = ?</item>
+        <item>31&#8304; = ?</item>
+        <item>5&#8308; = ?</item>
+        <item>25&#178; = ?</item>
+        <item>8&#185; = ?</item>
+        <item>1&#8311; = ?</item>
+        <item>&#8730;16 = ?</item>
+        <item>&#8730;49 = ?</item>
+        <item>&#8730;625 = ?</item>
     </string-array>
     <string-array name="opt_1_1_7">
+        <item>8</item>
+        <item>31</item>
+        <item>125</item>
+        <item>625</item>
+        <item>16</item>
+        <item>7</item>
+        <item>4</item>
+        <item>11</item>
+        <item>36</item>
     </string-array>
     <string-array name="opt_2_1_7">
+        <item>9</item>
+        <item>1</item>
+        <item>20</item>
+        <item>1025</item>
+        <item>8</item>
+        <item>0</item>
+        <item>8</item>
+        <item>7</item>
+        <item>62</item>
     </string-array>
     <string-array name="opt_3_1_7">
+        <item>6</item>
+        <item>0</item>
+        <item>625</item>
+        <item>525</item>
+        <item>0</item>
+        <item>1</item>
+        <item>32</item>
+        <item>9</item>
+        <item>25</item>
     </string-array>
     <integer-array name="answer_pos_1_7">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </integer-array>
 
     <string-array name="practice_questions_1_8">
