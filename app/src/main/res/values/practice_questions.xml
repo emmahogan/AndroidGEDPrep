@@ -429,14 +429,44 @@
     </integer-array>
 
     <string-array name="practice_questions_1_8">
+        <item>Find the next term in the sequence: \n1, 3, 9, 27, 81, ... ?</item>
+        <item>Find the 7th term in the sequence: \n11, 14, 17, 20, 23, ... ?</item>
+        <item>Find the next term in the sequence: \n2, 3, 5, 8, 12, 17, 23, ... ?</item>
+        <item>Find the 6th term in the sequence: \n160, 80, 40, 20, ... ?</item>
+        <item>Find the next term in the sequence: \n97, 93, 89, 85, 81, ... ?</item>
+        <item>Find the next term in the sequence: \n121, 100, 81, 64, 49, 36, 25, ... ?</item>
     </string-array>
     <string-array name="opt_1_1_8">
+        <item>243</item>
+        <item>26</item>
+        <item>27</item>
+        <item>5</item>
+        <item>78</item>
+        <item>17</item>
     </string-array>
     <string-array name="opt_2_1_8">
+        <item>108</item>
+        <item>29</item>
+        <item>25</item>
+        <item>10</item>
+        <item>77</item>
+        <item>21</item>
     </string-array>
     <string-array name="opt_3_1_8">
+        <item>99</item>
+        <item>31</item>
+        <item>30</item>
+        <item>0</item>
+        <item>75</item>
+        <item>16</item>
     </string-array>
     <integer-array name="answer_pos_1_8">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </integer-array>
 
     <string-array name="practice_questions_1_9">
