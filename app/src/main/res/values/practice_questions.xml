@@ -470,14 +470,54 @@
     </integer-array>
 
     <string-array name="practice_questions_1_9">
+        <item>Which of the following is equal to 15 + 20?</item>
+        <item>Which of the following is the same as 8 x 4?</item>
+        <item>Which of the following is equal to (11 + 5) + 3?</item>
+        <item>Which of the following is NOT equal to (8 + 3) + 9?</item>
+        <item>Which of the following is equal to (6 x 3) x 7?</item>
+        <item>Which of the following is NOT equal to (4 x 8) x 2?</item>
+        <item>Which of the following is equal to 13(9 + 12)?</item>
+        <item>Which of the following is NOT equal to 8(5 + 4)?</item>
     </string-array>
     <string-array name="opt_1_1_9">
+        <item>20 + 15</item>
+        <item>8 – 4</item>
+        <item>3(11 + 5)</item>
+        <item>17 + 5</item>
+        <item>(6 + 3) x 7</item>
+        <item>32 x 2</item>
+        <item>(13 x 9) + (13 x 12)</item>
+        <item>8(9)</item>
     </string-array>
     <string-array name="opt_2_1_9">
+        <item>20 – 15</item>
+        <item>4 x 8</item>
+        <item>11(5 + 3)</item>
+        <item>11 + 9</item>
+        <item>6 x (3 x 7)</item>
+        <item>4 x 16</item>
+        <item>13 + 9 + 12</item>
+        <item>8 x 20</item>
     </string-array>
     <string-array name="opt_3_1_9">
+        <item>15 x 20</item>
+        <item>4 &#x00F7; 8</item>
+        <item>11 + (5 + 3)</item>
+        <item>3 + 17</item>
+        <item>6 x (3 + 7)</item>
+        <item>8 x 6</item>
+        <item>9(13 + 12)</item>
+        <item>40 + 32</item>
     </string-array>
     <integer-array name="answer_pos_1_9">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
     </integer-array>
 
     <string-array name="practice_questions_1_10">
