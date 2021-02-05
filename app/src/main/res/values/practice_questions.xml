@@ -610,14 +610,39 @@
     </integer-array>
 
     <string-array name="practice_questions_2_2">
+        <item>Samuel purchased 2 shirts for $14 each and 3 pairs of shorts for $16 each. Which expression represents the total price of his purchase?</item>
+        <item>At the beginning of the week, there were 40 dozen eggs at the supermarket. By Wednesday, there were only 8 dozen eggs left unsold. Which expression represents how many individual eggs were sold?</item>
+        <item>Mario drove for 3 hours at an average speed of 60 miles per hour, and then drove for 2 more hours at an average speed of 45 miles per hour. Which expression represents the total distance Mario drove?</item>
+        <item>Sasha gets paid once a week at a job where she works 40 hours per week making $15 per hour. Her employer then deducts $150 for taxes and social security each week. Which expression represents Sasha\'s weekly paycheck?</item>
+        <item>Carla has an annual income of $35,000 a year, and her husband makes $40,000 per year. Which expression represents their monthly income?</item>
     </string-array>
     <string-array name="opt_1_2_2">
+        <item>(2 x 14) + (3 x 16)</item>
+        <item>12 x 40 – 8</item>
+        <item>(60 / 3) + (45 / 2)</item>
+        <item>15(40) - 150</item>
+        <item>35,000 + (40,000 / 12)</item>
     </string-array>
     <string-array name="opt_2_2_2">
+        <item>(2 + 14) x (3 + 16)</item>
+        <item>12 x (40 – 8)</item>
+        <item>(60 * 3) * (45 * 2)</item>
+        <item>(40 * 15) + 150</item>
+        <item>(35,000 + 40,000) / 12</item>
     </string-array>
     <string-array name="opt_3_2_2">
+        <item>(2 x 14) x (3 x 16)</item>
+        <item>12(40 + 8)</item>
+        <item>(60 * 3) + (45 * 2)</item>
+        <item>40 * (15 + 150)</item>
+        <item>12(35,000 + 40,000)</item>
     </string-array>
     <integer-array name="answer_pos_2_2">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
     </integer-array>
 
 
