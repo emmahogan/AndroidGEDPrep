@@ -564,15 +564,49 @@
 
 
     <string-array name="practice_questions_2_1">
-        <item>Which choice best expresses the question being asked in this word problem: \n</item>
+        <item>Which choice best expresses the question being asked in this word problem: \nHarold is saving up for a new phone that costs $189. So far he has saved $153. Find the additional amount that Harold needs to save.</item>
+        <item>Which choice best expresses the question being asked in this word problem: \nIn May, after going on a strict diet, Mark weighed 168 lbs. After going off his diet, by September Mark had gained back 27 lbs. Find Mark's weight in September.</item>
+        <item>Find the operation needed to solve the problem: \nKeri's total salary for the year was $32,590. Her taxes come to a total of $6,328. What is her net income for the year?</item>
+        <item>Find the operation needed to solve the problem: \nCarl and two coworkers bought lottery tickets. They ended up winning $450. If Carl shares the winnings equally with his coworkers, how much does each person receive?</item>
+        <item>Find the operation needed to solve the problem: \nLevi can type 75 words per minute on his computer. How long will it take him to type a memo containing 1450 words?</item>
+        <item>Find the operation needed to solve the problem: \nLarry drove 145 miles in 4 hours. Before he left, he paid $27 to fill up his gas tank. What was his average speed while driving (in miles per hour)?</item>
+        <item>Find the operation needed to solve the problem: \nOut of the 3,500 adults in Harbor Township, 2,300 finished high school and 950 of those who finished high school also finished college. How many adults in Harbor Township did not finish High School?</item>
     </string-array>
     <string-array name="opt_1_2_1">
+        <item>How much more does Harold have to save for the new phone?</item>
+        <item>How much did Mark weigh before his diet?</item>
+        <item>32,590 + 6,328</item>
+        <item>450 &#x00F7; 3</item>
+        <item>75 / 1450</item>
+        <item>145 &#x00F7; 27</item>
+        <item>3,500 – 2,300</item>
     </string-array>
     <string-array name="opt_2_2_1">
+        <item>How much money does Harold have saved?</item>
+        <item>How much did Mark weigh in September?</item>
+        <item>32,590 x 6,328</item>
+        <item>450 * 3</item>
+        <item>1450 &#x00F7; 75</item>
+        <item>4 * 145</item>
+        <item>2,300 – 950</item>
     </string-array>
     <string-array name="opt_3_2_1">
+        <item>How much is the new phone that Harold is saving up for?</item>
+        <item>How much did Mark weigh in May?</item>
+        <item>32,590 – 6,328</item>
+        <item>450 &#x00F7; 2</item>
+        <item>75 * 1450</item>
+        <item>145 &#x00F7; 4</item>
+        <item>3,500 – 950</item>
     </string-array>
     <integer-array name="answer_pos_2_1">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
     </integer-array>
 
     <string-array name="practice_questions_2_2">
