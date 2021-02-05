@@ -25,17 +25,17 @@
         <item>7.5</item>
         <item>3,234</item>
         <item>39.2</item>
-        <item>287 1/2</item>
+        <item>287&#189;</item>
         <item>300,029</item>
         <item>0</item>
         <item>4,001</item>
     </string-array>
     <string-array name="opt_3_1_1">
-        <item>37 1/2</item>
+        <item>37&#189;</item>
         <item>91.4</item>
         <item>-2</item>
         <item>0</item>
-        <item>4/7</item>
+        <item>&#8536;</item>
         <item>10.1</item>
         <item>9,012,000</item>
     </string-array>
@@ -564,6 +564,7 @@
 
 
     <string-array name="practice_questions_2_1">
+        <item>Which choice best expresses the question being asked in this word problem: \n</item>
     </string-array>
     <string-array name="opt_1_2_1">
     </string-array>
@@ -573,6 +574,7 @@
     </string-array>
     <integer-array name="answer_pos_2_1">
     </integer-array>
+
     <string-array name="practice_questions_2_2">
     </string-array>
     <string-array name="opt_1_2_2">
