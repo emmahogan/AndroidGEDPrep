@@ -521,14 +521,44 @@
     </integer-array>
 
     <string-array name="practice_questions_1_10">
+        <item>2 x 7&#178; = ?</item>
+        <item>2(5 + 3)&#178; = ?</item>
+        <item>8 + 4 + 15 &#x00F7; 3 = ?</item>
+        <item>12 + 5 x 3 = ?</item>
+        <item>(6 + 2)(7 – 3) = ?</item>
+        <item>6&#178; - 8 * 4</item>
     </string-array>
     <string-array name="opt_1_1_10">
+        <item>98</item>
+        <item>900</item>
+        <item>9</item>
+        <item>27</item>
+        <item>80</item>
+        <item>112</item>
     </string-array>
     <string-array name="opt_2_1_10">
+        <item>196</item>
+        <item>128</item>
+        <item>12</item>
+        <item>51</item>
+        <item>32</item>
+        <item>16</item>
     </string-array>
     <string-array name="opt_3_1_10">
+        <item>28</item>
+        <item>66</item>
+        <item>17</item>
+        <item>96</item>
+        <item>16</item>
+        <item>4</item>
     </string-array>
     <integer-array name="answer_pos_1_10">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </integer-array>
 
 
