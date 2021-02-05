@@ -565,8 +565,8 @@
 
     <string-array name="practice_questions_2_1">
         <item>Which choice best expresses the question being asked in this word problem: \nHarold is saving up for a new phone that costs $189. So far he has saved $153. Find the additional amount that Harold needs to save.</item>
-        <item>Which choice best expresses the question being asked in this word problem: \nIn May, after going on a strict diet, Mark weighed 168 lbs. After going off his diet, by September Mark had gained back 27 lbs. Find Mark's weight in September.</item>
-        <item>Find the operation needed to solve the problem: \nKeri's total salary for the year was $32,590. Her taxes come to a total of $6,328. What is her net income for the year?</item>
+        <item>Which choice best expresses the question being asked in this word problem: \nIn May, after going on a strict diet, Mark weighed 168 lbs. After going off his diet, by September Mark had gained back 27 lbs. Find Mark\'s weight in September.</item>
+        <item>Find the operation needed to solve the problem: \nKeri\'s total salary for the year was $32,590. Her taxes come to a total of $6,328. What is her net income for the year?</item>
         <item>Find the operation needed to solve the problem: \nCarl and two coworkers bought lottery tickets. They ended up winning $450. If Carl shares the winnings equally with his coworkers, how much does each person receive?</item>
         <item>Find the operation needed to solve the problem: \nLevi can type 75 words per minute on his computer. How long will it take him to type a memo containing 1450 words?</item>
         <item>Find the operation needed to solve the problem: \nLarry drove 145 miles in 4 hours. Before he left, he paid $27 to fill up his gas tank. What was his average speed while driving (in miles per hour)?</item>
