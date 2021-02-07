@@ -205,7 +205,17 @@
 
         </item>
         <item>Powers</item>
-        <item>sq, num seq</item>
+        <item>Find the next term in the number sequence:
+            \n\n\t25, 21, 17, 13, 9, ... ?
+            \n\nStep 1: Find the pattern that changes the numbers from left to right
+            \n\nWe see that each number is 4 less than the number before it (25 - 4 = 21, 21 - 4 = 17, and so on).
+            \nTherefore, the pattern is subtracting 4.
+            \n\nStep 2: Continue this pattern to find the missing number
+            \n\nNow all we have to do is continue the pattern from the last number in the sequence.
+            \nThe last term in the sequence is 9, so 9 minus 4 gives us our next term in the sequence:
+            \n9 - 4 = 5
+            \n\nOur final answer is the next term in the number sequence is 5.
+        </item>
         <item>
             <b>Commutative Property of Addition:</b>
             \n\n\t&#8226;    -2 + 4 = 4 + (-2)
