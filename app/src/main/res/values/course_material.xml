@@ -206,7 +206,7 @@
         </item>
         <item>Powers</item>
         <item>Find the next term in the number sequence:
-            \n\n\t25, 21, 17, 13, 9, ... ?
+            \n\n\t25, 21, 17, 13, 9, … ?
             \n\nStep 1: Find the pattern that changes the numbers from left to right
             \n\nWe see that each number is 4 less than the number before it (25 - 4 = 21, 21 - 4 = 17, and so on).
             \nTherefore, the pattern is subtracting 4.
