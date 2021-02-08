@@ -809,15 +809,46 @@
     </integer-array>
 
     <string-array name="practice_questions_3_5">
+        <item>Write the number 8,910,000 in scientific notation.</item>
+        <item>Translate 90,310,000 to scientific notation.</item>
+        <item>Write 2 billion in scientific notation.</item>
+        <item>Translate 3.0125 x 10&#8309; back to standard form.</item>
+        <item>4.0 x 10&#8313; is the scientific notation for: </item>
+        <item>Translate 1.00005 x 10&#8310; back to standard form.</item>
     </string-array>
     <string-array name="opt_1_3_5">
+        <item>8.91 x 10&#8310;</item>
+        <item>90.31 x 10&#8310;</item>
+        <item>2.0 x 10&#8312;</item>
+        <item>301,250</item>
+        <item>4 million</item>
+        <item>10,005</item>
     </string-array>
     <string-array name="opt_2_3_5">
+        <item>891 x 10&#8308;</item>
+        <item>9.031 x 10&#8311;</item>
+        <item>2.0 x 10&#8310;</item>
+        <item>30,125</item>
+        <item>4 billion</item>
+        <item>100,005</item>
     </string-array>
     <string-array name="opt_3_3_5">
+        <item>8.91 x 10&#8311;</item>
+        <item>9,031 x 10&#8308;</item>
+        <item>2.0 x 10&#8313;</item>
+        <item>3,012,500</item>
+        <item>4 trillion</item>
+        <item>1,000,050</item>
     </string-array>
     <integer-array name="answer_pos_3_5">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </integer-array>
+
     <string-array name="practice_questions_3_6">
     </string-array>
     <string-array name="opt_1_3_6">
