@@ -676,15 +676,56 @@
     </integer-array>
 
     <string-array name="practice_questions_3_2">
+        <item>Digits placed to the left of the decimal have a value that is: </item>
+        <item>Digits placed to the right of the decimal have a value that is: </item>
+        <item>The decimal point is placed: </item>
+        <item>0.013 is equal to: </item>
+        <item>0.51 is equal to: </item>
+        <item>In the number 513.0046, the 4 is in the _________ place.</item>
+        <item>In the number 0.0205, the 2 is in the __________ place.</item>
+        <item>In the number 120.89004, the 8 is in the __________ place.</item>
     </string-array>
     <string-array name="opt_1_3_2">
+        <item>Greater than or equal to 1</item>
+        <item>Less than or equal to 0</item>
+        <item>To the left of the one's place</item>
+        <item>13 / 1,000</item>
+        <item>51 / 1,000</item>
+        <item>tenths</item>
+        <item>hundredths</item>
+        <item>thousandths</item>
     </string-array>
     <string-array name="opt_2_3_2">
+        <item>Greater than or equal to 0</item>
+        <item>Less than 1</item>
+        <item>To the right of the tenths place</item>
+        <item>13 / 100</item>
+        <item>51 / 100</item>
+        <item>hundredths</item>
+        <item>thousandths</item>
+        <item>tenths</item>
     </string-array>
     <string-array name="opt_3_3_2">
+        <item>Less than or equal to 1</item>
+        <item>Greater than or equal to 1</item>
+        <item>To the right of the one's place</item>
+        <item>13 / 10,000</item>
+        <item>51 / 10</item>
+        <item>thousandths</item>
+        <item>tenths</item>
+        <item>hundredths</item>
     </string-array>
     <integer-array name="answer_pos_3_2">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
     </integer-array>
+
     <string-array name="practice_questions_3_3">
     </string-array>
     <string-array name="opt_1_3_3">
