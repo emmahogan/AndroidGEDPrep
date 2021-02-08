@@ -850,14 +850,39 @@
     </integer-array>
 
     <string-array name="practice_questions_3_6">
+        <item>Harry drove for 3.5 hours at an average speed of 50 miles per hour. How far did he drive?</item>
+        <item>Beth works 40 hours per week, and gets paid $10.75 per hour. How much does she make per week?</item>
+        <item>Arnold works 40 hours per week as a janitor, making $13.50 per hour. On the weekends, he works an additional 10 hours mowing grass, making 8.75 per hour. How much money does he make from the two jobs combined each week?</item>
+        <item>As a line cook, Todd is paid $14 per hour. However, if he works overtime, he is paid 1.5 times his normal salary for each of the hours he works over 40 hours in a week. If Todd worked 48 hours this week, how much did he make?</item>
+        <item>Ashley bought 3 yards of red fabric that cost $7.90 a yard, and 4.5 yards of blue fabric that cost $9.30 a yard. How much did she pay in total for both fabrics?</item>
     </string-array>
     <string-array name="opt_1_3_6">
+        <item>175</item>
+        <item>$500.75</item>
+        <item>$540</item>
+        <item>$728.00</item>
+        <item>$60.50</item>
     </string-array>
     <string-array name="opt_2_3_6">
+        <item>1,750</item>
+        <item>$430</item>
+        <item>$687.50</item>
+        <item>$672.00</item>
+        <item>$65.55</item>
     </string-array>
     <string-array name="opt_3_3_6">
+        <item>17.5</item>
+        <item>$475</item>
+        <item>$627.50</item>
+        <item>$616.00</item>
+        <item>$76.55</item>
     </string-array>
     <integer-array name="answer_pos_3_6">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
     </integer-array>
 
 
