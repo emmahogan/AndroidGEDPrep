@@ -730,9 +730,9 @@
         <item>10.05 + 1.6 = ?</item>
         <item>0.0023 + 0.135 = ?</item>
         <item>11.5 + 0.3291 = ?</item>
-        <item>88.9 - 23.5 = ?</item>
-        <item>0.781 - 0.023</item>
-        <item>0.2 - 0.0019</item>
+        <item>88.9 – 23.5 = ?</item>
+        <item>0.781 – 0.023</item>
+        <item>0.2 – 0.0019</item>
     </string-array>
     <string-array name="opt_1_3_3">
         <item>11.65</item>
@@ -768,14 +768,44 @@
     </integer-array>
 
     <string-array name="practice_questions_3_4">
+        <item>9.7 x 1.3 = ?</item>
+        <item>0.0041 x 125 = ?</item>
+        <item>13.63 x 153.75 = ?</item>
+        <item>78.9 / 3 = ?</item>
+        <item>86.24 / 12.8 = ?</item>
+        <item>0.0129 / 0.03 = ?</item>
     </string-array>
     <string-array name="opt_1_3_4">
+        <item>12.61</item>
+        <item>51.25</item>
+        <item>3,610.267</item>
+        <item>26.3</item>
+        <item>7.184</item>
+        <item>0.389</item>
     </string-array>
     <string-array name="opt_2_3_4">
+        <item>117.36</item>
+        <item>0.5125</item>
+        <item>290.2534</item>
+        <item>2.63</item>
+        <item>6.8992</item>
+        <item>1.469</item>
     </string-array>
     <string-array name="opt_3_3_4">
+        <item>6.183</item>
+        <item>.4815</item>
+        <item>2,095.6125</item>
+        <item>263</item>
+        <item>6.1938</item>
+        <item>0.43</item>
     </string-array>
     <integer-array name="answer_pos_3_4">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </integer-array>
 
     <string-array name="practice_questions_3_5">
