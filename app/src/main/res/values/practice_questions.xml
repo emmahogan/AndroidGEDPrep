@@ -650,15 +650,31 @@
 
 
     <string-array name="practice_questions_3_1">
+        <item>Our decimal system lets us write numbers of all types and sizes, using a clever symbol called the ___________________</item>
+        <item>As you move right from the decimal point, each place value is _____________________</item>
+        <item>3.14 is a:</item>
     </string-array>
     <string-array name="opt_1_3_1">
+        <item>decimal point</item>
+        <item>multiplied by 10</item>
+        <item>Whole number</item>
     </string-array>
     <string-array name="opt_2_3_1">
+        <item>period</item>
+        <item>divided by 1</item>
+        <item>Number</item>
     </string-array>
     <string-array name="opt_3_3_1">
+        <item>division point</item>
+        <item>divided by 10</item>
+        <item>Both A and B</item>
     </string-array>
     <integer-array name="answer_pos_3_1">
+        <item>1</item>
+        <item>3</item>
+        <item>2</item>
     </integer-array>
+
     <string-array name="practice_questions_3_2">
     </string-array>
     <string-array name="opt_1_3_2">
