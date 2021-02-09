@@ -395,7 +395,11 @@
             \n\n\t&#8226;Step 2:    Divide as usual. If the divisor doesn\'t go into the dividend evenly, add zeroes to the right of the last digit in the dividend and keep dividing until it comes out evenly or a repeating pattern shows up.
             \n\n\t&#8226;Step 3:    Position the decimal point in the result directly above the decimal point in the dividend.
         </item>
-        <item>Scientific Notation with Large Numbers</item>
+        <item>To avoid having to write many zeros in very large numbers, scientists and mathematicians sometimes use a simplified method of writing these numbers, which is called scientific notation. The method involves powers of ten.
+            \n\nTo write a large number in scientific notation, use the following 2 steps:
+            \n\n\t&#8226;Step 1:    Move the decimal point in the number to get a number between 1 and 10.
+            \n\n\t&#8226;Step 1:    Rewrite the number as a multiplication problem, the first number being the new decimal and the second number being a power of ten. The power of ten should equal the number of places the decimal had to move in Step 1.
+        </item>
         <item>Decimal Word Problems</item>
     </string-array>
     <string-array name="examples_3">
@@ -403,7 +407,14 @@
         <item>Understanding Decimals</item>
         <item>Adding and Subtracting Decimals</item>
         <item>Multiplying and Dividing Decimals</item>
-        <item>Scientific Notation with Large Numbers</item>
+        <item>
+            Translate the number 4,900,000 to scientific notation.
+            \n\n\t    First, move the decimal point to get a number between 1 and 10:
+            \n\n\t\t    4.9
+            \n\n\t    Next, rewrite the number as a multiplication problem, the first number being the new decimal and the second number being a power of ten. NOTE: Since we had to move the decimal point 6 places to get from 4,900,000 to 4.9, the power of 10 will be 6.
+            \n\n\t    Our final answer is:
+            \n\n\t\t    4.9 x 10&#8310;
+        </item>
         <item>Decimal Word Problems</item>
     </string-array>
     <string-array name="citations_3">
