@@ -204,7 +204,17 @@
             </ul>
 
         </item>
-        <item>Powers</item>
+        <item>
+            What is 5&#179;?
+            \n\nWrite the 5 three times, and multiply
+            \n\n\t 5&#179; = 5 x 5 x 5 = 125
+            \n\n\nWhat is 8&#185;?
+            \n\nThere is no multiplication necessary to solve this problem. To raise 8 to the first power, simply write the 8 one time.
+            \n\n\t 8&#185; = 8
+            \n\nFind 5&#8304;.
+            \n\nRaising a number to the zero power is just like dividing the number by itself. Therefore, any number raised to the zero power is 1.
+            \n\n\t 5&#8304; = 5 / 5 = 1
+        </item>
         <item>Find the next term in the number sequence:
             \n\n\t25, 21, 17, 13, 9, … ?
             \n\nStep 1: Find the pattern that changes the numbers from left to right
