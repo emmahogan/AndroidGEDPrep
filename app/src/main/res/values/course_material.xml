@@ -291,7 +291,7 @@
         <item>What is the difference between 2,309,000 and 586,900?</item>
         <item>79 + 3148 + 307 = ?</item>
         <item>What is the product of 58 and 37 rounded to the nearest hundred?</item>
-        <item>30,550/650 = ?</item>
+        <item>30,550&#8260;650 = ?</item>
     </string-array>
     <string-array name="answers_1">
         <item>416</item>
@@ -432,14 +432,14 @@
         <item>
             In the number 2.658:
             \n\n\tThe 2 is in the 1, or the one\'s place.
-            \n\n\tThe 6 is in the 1/10, or the tenth\'s place.
-            \n\n\tThe 5 is in the 1/100, or the hundredth\'s place.
-            \n\n\tThe 8 is in the 1/1,000, or the thousandth\'s place.
+            \n\n\tThe 6 is in the 1&#8260;10, or the tenth\'s place.
+            \n\n\tThe 5 is in the 1&#8260;100, or the hundredth\'s place.
+            \n\n\tThe 8 is in the 1&#8260;1,000, or the thousandth\'s place.
         </item>
         <item>
-            0.3 is equal to 3/10
-            \n\n0.098 is equal to 98/1,000
-            \n\n1/1,000,000, or 1 millionth, written as a decimal number is 0.000001
+            0.3 is equal to 3&#8260;10
+            \n\n0.098 is equal to 98&#8260;1,000
+            \n\n1&#8260;1,000,000, or 1 millionth, written as a decimal number is 0.000001
         </item>
         <item>
             Example 1:\t3.2 + 4.65 = ?
@@ -490,7 +490,7 @@
         <item>Fraction Word Problems</item>
     </string-array>
     <string-array name="subtopic_content_4">
-        <item>Coming Soon!</item>
+        <item>Just like a decimal number, a fraction describes a part of a whole. Fractions are written as a quotient of two whole numbers.</item>
         <item>Coming Soon!</item>
         <item>Coming Soon!</item>
         <item>Coming Soon!</item>
@@ -501,7 +501,7 @@
         <item>Coming Soon!</item>
     </string-array>
     <string-array name="examples_4">
-        <item>Coming Soon!</item>
+        <item>One penny is one of the hundred equal parts of a dollar. Therefore, one penny is 1&#8260;100 (one hundredth) of a dollar.</item>
         <item>Coming Soon!</item>
         <item>Coming Soon!</item>
         <item>Coming Soon!</item>
