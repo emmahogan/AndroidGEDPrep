@@ -252,7 +252,20 @@
             \n\n\t&#8226;    -2(4 + 3) = -2(4) + -2(3)
             \n\nIn the example, we can either add the numbers inside the parentheses first (4 + 3), and then multiply the result by -2; OR, we can multiply the -2 and each term separately and then add the two products together. The answer is the same in both cases.
         </item>
-        <item>ex</item>
+        <item>
+            8&#178; - (17 + 9 x 3) = ?
+            \n\nStep 1: First, we have to evaluate the expression inside the parentheses in the order of operations. Since there is addition and multiplication, we do the multiplication first.
+            \n\n\t 9 x 3 = 27
+            \n\n\tNow we are left with: 8&#178; - (17 + 27). Now we perform the addition inside the paarentheses.
+            \n\n\t 17 + 27 = 44
+            \n\n\tWe are left with 8&#178; - 44
+            \n\nStep 2: Next, perform the powers operation.
+            \n\n\t8&#178; = 8 x 8 = 64
+            \n\n\tWe are left with 64 - 44
+            \n\nStep 3: Last, perform the subtraction.
+            \n\n\t64 - 44 = 20
+            \n\nTherefore, 8&#178; - (17 + 9 x 3) = 20
+        </item>
     </string-array>
     <string-array name="citations_1">
         <item>McGraw-Hill\'s GED Mathematics Study Program</item>
