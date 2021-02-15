@@ -688,7 +688,7 @@
     <string-array name="opt_1_3_2">
         <item>Greater than or equal to 1</item>
         <item>Less than or equal to 0</item>
-        <item>To the left of the one's place</item>
+        <item>To the left of the one\'s place</item>
         <item>13 / 1,000</item>
         <item>51 / 1,000</item>
         <item>tenths</item>
@@ -708,7 +708,7 @@
     <string-array name="opt_3_3_2">
         <item>Less than or equal to 1</item>
         <item>Greater than or equal to 1</item>
-        <item>To the right of the one's place</item>
+        <item>To the right of the one\'s place</item>
         <item>13 / 10,000</item>
         <item>51 / 10</item>
         <item>thousandths</item>

@@ -429,10 +429,27 @@
         \n\tRemember to be sure that you understand the question before you begin trying to solve it. Decide what information is needed to solve the question, and which operation(s) you need to use. Finally, make sure that your answer makes sense in context.</item>
     </string-array>
     <string-array name="examples_3">
-        <item>Decimals Introduction</item>
-        <item>Understanding Decimals</item>
-        <item>Adding and Subtracting Decimals</item>
-        <item>Multiplying and Dividing Decimals</item>
+        <item>
+            In the number 2.658:
+            \n\n\tThe 2 is in the 1, or the one\'s place.
+            \n\n\tThe 6 is in the 1/10, or the tenth\'s place.
+            \n\n\tThe 5 is in the 1/100, or the hundredth\'s place.
+            \n\n\tThe 8 is in the 1/1,000, or the thousandth\'s place.
+        </item>
+        <item>
+            0.3 is equal to 3/10
+            \n\n0.098 is equal to 98/1,000
+            \n\n1/1,000,000, or 1 millionth, written as a decimal number is 0.000001
+        </item>
+        <item>
+            Example 1:\t3.2 + 4.65 = ?
+            \n\nLine up the decimal points, and add as usual.
+            \n\n3.2 + 4.65 = 7.85
+            \n\nExample 2:\t8.9 - 3.6 = ?
+            \n\nLine up the decimal points, and subtract as usual.
+            \n\n8.9 - 3.6 = 5.3
+        </item>
+        <item>See the animation video for examples!</item>
         <item>
             Translate the number 4,900,000 to scientific notation.
             \n\n\t    First, move the decimal point to get a number between 1 and 10:
